@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='utf-8'?>
+<epm xmlns='http://eprints.org/ep2/data/2.0' id='http://lslvm-mrt5.ecs.soton.ac.uk/id/epm/medshare_archive'>
+  <epmid>medshare_archive</epmid>
+  <uri>http://lslvm-mrt5.ecs.soton.ac.uk/id/epm/medshare_archive</uri>
+  <documents>
+    <document>
+      <files>
+        <file>
+          <filename>epm/medshare_archive/cfg/workflows/eprint/resource.xml</filename>
+          <mime_type>application/xml</mime_type>
+          <hash>370afaa8f5834139fbf8f7f9741a08a0</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>806</filesize>
+          <data encoding='base64'>PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KCjx3b3JrZmxvdyB4bWxucz0i
+aHR0cDovL2VwcmludHMub3JnL2VwMy93b3JrZmxvdyIgeG1sbnM6ZXBjPSJodHRwOi8vZXByaW50
+cy5vcmcvZXAzL2NvbnRyb2wiPgogIDxmbG93PgogICAgPHN0YWdlIHJlZj0iY29yZSIvPgogIDwv
+Zmxvdz4KCiAgPHN0YWdlIG5hbWU9ImNvcmUiPgogICAgPGNvbXBvbmVudCB0eXBlPSJVcGxvYWQi
+PgogICAgICAgIDx1cGxvYWQtbWV0aG9kcz4KICAgICAgICAgIDxtZXRob2Q+ZmlsZTwvbWV0aG9k
+PgogICAgICAgICAgPG1ldGhvZD5zaGFyZWxpbms8L21ldGhvZD4KICAgICAgICA8L3VwbG9hZC1t
+ZXRob2RzPgogICAgPC9jb21wb25lbnQ+CiAgICA8Y29tcG9uZW50IHR5cGU9IkRvY3VtZW50cyI+
+CiAgCTxmaWVsZCByZWY9ImRlc2NyaXB0aW9uIi8+CiAgICA8L2NvbXBvbmVudD4KCiAgICA8Y29t
+cG9uZW50IHR5cGU9IkZpZWxkOjpNdWx0aSI+Cgk8dGl0bGU+TWVkU2hhcmUgUmVzb3VyY2UgSW5m
+b3JtYXRpb248L3RpdGxlPgoJPGZpZWxkIHJlZj0idGl0bGUiIHJlcXVpcmVkPSJ5ZXMiIC8+Cgk8
+ZmllbGQgcmVmPSJhYnN0cmFjdCIvPgogICAgPC9jb21wb25lbnQ+CgogICAgPGNvbXBvbmVudCB0
+eXBlPSJGaWVsZDo6VGFnTGl0ZSI+Cgk8ZmllbGQgcmVmPSJyYXdfa2V5d29yZHMiIHNob3dfcGlj
+a3VwX2xpc3Q9IjEiLz4KICAgIDwvY29tcG9uZW50PgoKICAgIDxjb21wb25lbnQ+PGZpZWxkIHJl
+Zj0idmlld3Blcm1zIiByZXF1aXJlZD0ieWVzIi8+PC9jb21wb25lbnQ+Cjwvc3RhZ2U+Cgo8L3dv
+cmtmbG93Pgo=
+</data>
+        </file>
+        <file>
+          <filename>epm/medshare_archive/lib/plugins/EPrints/Plugin/Screen/EPMC/MedShareArchive.pm</filename>
+          <mime_type>text/plain</mime_type>
+          <hash>e46b54f1485820cda718f1dce9598fa3</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>1277</filesize>
+          <data encoding='base64'>cGFja2FnZSBFUHJpbnRzOjpQbHVnaW46OlNjcmVlbjo6RVBNQzo6TWVkU2hhcmVBcmNoaXZlOwoK
+QElTQSA9ICggJ0VQcmludHM6OlBsdWdpbjo6U2NyZWVuOjpFUE1DJyApOwoKdXNlIEVQcmludHM6
+OlBsdWdpbjo6U2NyZWVuOjpFUE1DOwp1c2UgRmlsZTo6Q29weTsKCnVzZSBzdHJpY3Q7CgpvdXIg
+QHJlcGxhY2VkX2ZpbGVzID0gKAoJIi93b3JrZmxvd3MvZXByaW50L3Jlc291cmNlLnhtbCIsCgop
+OwoKc3ViIG5ldwp7CglteSAoICRjbGFzcywgJXBhcmFtcyApID0gQF87CgoJbXkgJHNlbGYgPSAk
+Y2xhc3MtPlNVUEVSOjpuZXcoICVwYXJhbXMgKTsKCgkkc2VsZi0+e2FjdGlvbnN9ID0gW3F3KCBl
+bmFibGUgZGlzYWJsZSApXTsKCSRzZWxmLT57ZGlzYWJsZX0gPSAwOwoJJHNlbGYtPntwYWNrYWdl
+X25hbWV9ID0gIm1lZHNoYXJlIjsKCSRzZWxmLT57cmVwbGFjZV9zdWZmaXh9ID0gIi5tZWRzaGFy
+ZV9yZXBsYWNlZCI7CgoJcmV0dXJuICRzZWxmOwp9CgpzdWIgYWN0aW9uX2VuYWJsZQp7CglteSAo
+JHNlbGYsICRza2lwX3JlbG9hZCApID0gQF87CglteSAkcmVwbyA9ICRzZWxmLT57cmVwb3NpdG9y
+eX07CgoJcHJpbnQgU1RERVJSICJcbkVOQUJMSU5HICIuJHNlbGYtPntwYWNrYWdlX25hbWV9LiJc
+biI7CgoJbXkgJGNmZ19kaXIgPSAkcmVwby0+Y29uZmlnKCAiY29uZmlnX3BhdGgiICk7Cglmb3Jl
+YWNoIChAcmVwbGFjZWRfZmlsZXMpCgl7CgkJcHJpbnQgU1RERVJSICIgIG1vdmluZyAkX1xuIjsK
+CQltb3ZlKCAkY2ZnX2Rpci4kXywgJGNmZ19kaXIuJF8uJHNlbGYtPntyZXBsYWNlX3N1ZmZpeH0g
+KTsJCQoJfQoKCSRzZWxmLT5TVVBFUjo6YWN0aW9uX2VuYWJsZSggJHNraXBfcmVsb2FkICk7Cn0K
+CnN1YiBhY3Rpb25fZGlzYWJsZQp7CglteSggJHNlbGYsICRza2lwX3JlbG9hZCApID0gQF87CgoJ
+cHJpbnQgU1RERVJSICJcbkRJU0FCTElORyAiLiRzZWxmLT57cGFja2FnZV9uYW1lfS4iXG4iOwoK
+CSRzZWxmLT5TVVBFUjo6YWN0aW9uX2Rpc2FibGUoICRza2lwX3JlbG9hZCApOwoJbXkgJHJlcG8g
+PSAkc2VsZi0+e3JlcG9zaXRvcnl9OwoKCW15ICRjZmdfZGlyID0gJHJlcG8tPmNvbmZpZyggImNv
+bmZpZ19wYXRoIiApOwoJZm9yZWFjaCAoQHJlcGxhY2VkX2ZpbGVzKQoJewoJCgkJcHJpbnQgU1RE
+RVJSICIgIHJlc3RvcmluZyAkX1xuIjsJCgkJbW92ZSggJGNmZ19kaXIuJF8uJHNlbGYtPntyZXBs
+YWNlX3N1ZmZpeH0sICRjZmdfZGlyLiRfICk7CQkKCX0KCgkkc2VsZi0+cmVsb2FkX2NvbmZpZyBp
+ZiAhJHNraXBfcmVsb2FkOwp9CgoxOwo=
+</data>
+        </file>
+      </files>
+      <mime_type>text/plain</mime_type>
+      <format>text</format>
+      <main>epm/medshare_archive/lib/plugins/EPrints/Plugin/Screen/EPMC/MedShareArchive.pm</main>
+      <content>install</content>
+    </document>
+  </documents>
+  <version>1.0.0</version>
+  <controller>EPMC::MedShareArchive</controller>
+  <creators>
+    <item>
+      <name>
+        <family>Taylor</family>
+        <given>Matt R</given>
+      </name>
+      <id>mrt@ecs.soton.ac.uk</id>
+    </item>
+  </creators>
+  <title>MedShare Archive</title>
+  <description>Metadata, workflow and citations for MedShare archive.</description>
+</epm>

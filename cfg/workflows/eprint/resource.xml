@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<workflow xmlns="http://eprints.org/ep3/workflow" xmlns:epc="http://eprints.org/ep3/control">
+  <flow>
+    <stage ref="core"/>
+  </flow>
+
+  <stage name="core">
+    <component type="Upload">
+        <upload-methods>
+          <method>file</method>
+          <method>sharelink</method>
+        </upload-methods>
+    </component>
+    <component type="Documents">
+  	<field ref="description"/>
+    </component>
+
+    <component type="Field::Multi">
+	<title>MedShare Resource Information</title>
+	<field ref="title" required="yes" />
+	<field ref="abstract"/>
+    </component>
+
+    <component type="Field::TagLite">
+	<field ref="raw_keywords" show_pickup_list="1"/>
+    </component>
+
+    <component><field ref="viewperms" required="yes"/></component>
+</stage>
+
+</workflow>
