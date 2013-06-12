@@ -7,19 +7,26 @@
 
   <stage name="core">
     <component type="Upload">
-        <upload-methods>
-          <method>file</method>
-          <method>sharelink</method>
-        </upload-methods>
+      <upload-methods>
+        <method>file</method>
+        <method>sharelink</method>
+      </upload-methods>
     </component>
     <component type="Documents">
-  	<field ref="description"/>
+      <field ref="description"/>
     </component>
 
     <component type="Field::Multi">
-	<title>MedShare Resource Information</title>
-	<field ref="title" required="yes" />
-	<field ref="abstract"/>
+      <title>MedShare Resource Information</title>
+      <field ref="title" required="yes" />
+      <field ref="abstract"/>
+    </component>
+
+    <component type="Field::FacetCSV" csv="medshare_modules">
+      <title>MedShare Module Select</title>
+      <field ref="medshare_programme" />
+      <field ref="medshare_year" />
+      <field ref="medshare_module" />
     </component>
 
     <component type="Field::TagLite">

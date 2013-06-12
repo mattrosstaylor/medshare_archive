@@ -6,31 +6,173 @@
     <document>
       <files>
         <file>
+          <filename>epm/medshare_archive/cfg/cfg.d/z_medshare.pl</filename>
+          <mime_type>text/plain</mime_type>
+          <hash>c3cd81d08e9a112bf250727cacdc64d6</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>722</filesize>
+          <data encoding='base64'>JGMtPntzdW1tYXJ5X3BhZ2VfbWV0YWRhdGF9ID0gW3F3LwoJdXNlcmlkCglkYXRlc3RhbXAKCW1l
+ZHNoYXJlX3Byb2dyYW1tZQoJbWVkc2hhcmVfeWVhcgoJbWVkc2hhcmVfbW9kdWxlCglrZXl3b3Jk
+cwoJdmlld3Blcm1zCi9dOwoKJGMtPntmaWVsZHN9LT57ZXByaW50fSA9IFtAeyRjLT57ZmllbGRz
+fS0+e2VwcmludH19LCAoCnsKCSduYW1lJyA9PiAnbWVkc2hhcmVfcHJvZ3JhbW1lJywKCSdyZXF1
+aXJlZCcgPT4gMSwJCgkndHlwZScgPT4gJ3NldCcsCgknb3B0aW9ucycgPT4gWwoJCSdibTEnLAoJ
+CSdibTInLAoJCSdibTJfYWx0JywKCQknYm0zJywKCV0sCn0sCnsKCSduYW1lJyA9PiAnbWVkc2hh
+cmVfeWVhcicsCgkncmVxdWlyZWQnID0+IDEsCQoJJ3R5cGUnID0+ICdzZXQnLAoJJ29wdGlvbnMn
+ID0+IFsKCQkneTEnLAoJCSd5MicsCgkJJ3kwJywKCV0sCn0sCnsKCSduYW1lJyA9PiAnbWVkc2hh
+cmVfbW9kdWxlJywKCSdyZXF1aXJlZCcgPT4gMSwJCgkndHlwZScgPT4gJ3NldCcsCgknb3B0aW9u
+cycgPT4gWwoJCSdtb2R1bGUxJywKCQknbW9kdWxlMicsCgkJJ21vZHVsZTMnLAoJCSdtb2R1bGU0
+JywKCQknbW9kdWxlNicsCgkJJ21vZHVsZTcnLAoJCSdtb2R1bGU4JywKCQknbW9kdWxlOScsCgld
+LAp9CgoKKV07CgokYy0+e3BsdWdpbnN9LT57IklucHV0Rm9ybTo6Q29tcG9uZW50OjpGaWVsZDo6
+RmFjZXRDU1YifS0+e3BhcmFtc30tPntkaXNhYmxlfSA9IDA7Cgo=
+</data>
+        </file>
+        <file>
+          <filename>epm/medshare_archive/cfg/lang/en/phrases/z_medshare.xml</filename>
+          <mime_type>application/xml</mime_type>
+          <hash>d2fc179493303bda5cfc49e6e8e1b390</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>704</filesize>
+          <data encoding='base64'>PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiIHN0YW5kYWxvbmU9Im5vIj8+Cjwh
+RE9DVFlQRSBwaHJhc2VzIFNZU1RFTSAiZW50aXRpZXMuZHRkIj4KPGVwcDpwaHJhc2VzIHhtbG5z
+PSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hodG1sIiB4bWxuczplcHA9Imh0dHA6Ly9lcHJpbnRz
+Lm9yZy9lcDMvcGhyYXNlIiB4bWxuczplcGM9Imh0dHA6Ly9lcHJpbnRzLm9yZy9lcDMvY29udHJv
+bCI+Cgk8ZXBwOnBocmFzZSBpZD0iZXByaW50X2ZpZWxkbmFtZV9tZWRzaGFyZV9wcm9ncmFtbWUi
+PlByb2dyYW1tZTwvZXBwOnBocmFzZT4KCTxlcHA6cGhyYXNlIGlkPSJlcHJpbnRfZmllbGRoZWxw
+X21lZHNoYXJlX3Byb2dyYW1tZSI+V2hhdCBwcm9ncmFtbWU/PC9lcHA6cGhyYXNlPgoJPGVwcDpw
+aHJhc2UgaWQ9ImVwcmludF9maWVsZG5hbWVfbWVkc2hhcmVfeWVhciI+WWVhciBvZiBTdHVkeTwv
+ZXBwOnBocmFzZT4KCTxlcHA6cGhyYXNlIGlkPSJlcHJpbnRfZmllbGRoZWxwX21lZHNoYXJlX3ll
+YXIiPldoYXQgeWVhcj88L2VwcDpwaHJhc2U+Cgk8ZXBwOnBocmFzZSBpZD0iZXByaW50X2ZpZWxk
+bmFtZV9tZWRzaGFyZV9tb2R1bGUiPk1vZHVsZTwvZXBwOnBocmFzZT4KCTxlcHA6cGhyYXNlIGlk
+PSJlcHJpbnRfZmllbGRoZWxwX21lZHNoYXJlX21vZHVsZSI+V2hhdCBtb2R1bGU/PC9lcHA6cGhy
+YXNlPgo8L2VwcDpwaHJhc2VzPgo=
+</data>
+        </file>
+        <file>
+          <filename>epm/medshare_archive/cfg/static/medshare_modules</filename>
+          <mime_type>text/plain</mime_type>
+          <hash>d777dd20f65513fb4d9e506d17d563d7</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>354</filesize>
+          <data encoding='base64'>Ym0xCXkxCW1vZHVsZTEKYm0xCXkxCW1vZHVsZTIKYm0xCXkxCW1vZHVsZTMKYm0yCXkxCW1vZHVs
+ZTEKYm0yCXkxCW1vZHVsZTIKYm0yCXkxCW1vZHVsZTMKYm0yCXkyCW1vZHVsZTQKYm0yCXkyCW1v
+ZHVsZTUKYm0yCXkyCW1vZHVsZTYKYm0yX2FsdAl5MQltb2R1bGUxCmJtMl9hbHQJeTEJbW9kdWxl
+MgpibTJfYWx0CXkxCW1vZHVsZTMKYm0yX2FsdAl5Mgltb2R1bGU3CmJtMl9hbHQJeTIJbW9kdWxl
+OApibTJfYWx0CXkyCW1vZHVsZTkKYm0zCXkwCW1vZHVsZTAKYm0zCXkxCW1vZHVsZTEKYm0zCXkx
+CW1vZHVsZTIKYm0zCXkxCW1vZHVsZTMKYm0zCXkyCW1vZHVsZTQKYm0zCXkyCW1vZHVsZTUKYm0z
+CXkyCW1vZHVsZTYK
+</data>
+        </file>
+        <file>
           <filename>epm/medshare_archive/cfg/workflows/eprint/resource.xml</filename>
           <mime_type>application/xml</mime_type>
-          <hash>370afaa8f5834139fbf8f7f9741a08a0</hash>
+          <hash>0e3fcd45d1ae4289191225c2fdbe74cb</hash>
           <hash_type>MD5</hash_type>
-          <filesize>806</filesize>
+          <filesize>1055</filesize>
           <data encoding='base64'>PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KCjx3b3JrZmxvdyB4bWxucz0i
 aHR0cDovL2VwcmludHMub3JnL2VwMy93b3JrZmxvdyIgeG1sbnM6ZXBjPSJodHRwOi8vZXByaW50
 cy5vcmcvZXAzL2NvbnRyb2wiPgogIDxmbG93PgogICAgPHN0YWdlIHJlZj0iY29yZSIvPgogIDwv
 Zmxvdz4KCiAgPHN0YWdlIG5hbWU9ImNvcmUiPgogICAgPGNvbXBvbmVudCB0eXBlPSJVcGxvYWQi
-PgogICAgICAgIDx1cGxvYWQtbWV0aG9kcz4KICAgICAgICAgIDxtZXRob2Q+ZmlsZTwvbWV0aG9k
-PgogICAgICAgICAgPG1ldGhvZD5zaGFyZWxpbms8L21ldGhvZD4KICAgICAgICA8L3VwbG9hZC1t
-ZXRob2RzPgogICAgPC9jb21wb25lbnQ+CiAgICA8Y29tcG9uZW50IHR5cGU9IkRvY3VtZW50cyI+
-CiAgCTxmaWVsZCByZWY9ImRlc2NyaXB0aW9uIi8+CiAgICA8L2NvbXBvbmVudD4KCiAgICA8Y29t
-cG9uZW50IHR5cGU9IkZpZWxkOjpNdWx0aSI+Cgk8dGl0bGU+TWVkU2hhcmUgUmVzb3VyY2UgSW5m
-b3JtYXRpb248L3RpdGxlPgoJPGZpZWxkIHJlZj0idGl0bGUiIHJlcXVpcmVkPSJ5ZXMiIC8+Cgk8
-ZmllbGQgcmVmPSJhYnN0cmFjdCIvPgogICAgPC9jb21wb25lbnQ+CgogICAgPGNvbXBvbmVudCB0
-eXBlPSJGaWVsZDo6VGFnTGl0ZSI+Cgk8ZmllbGQgcmVmPSJyYXdfa2V5d29yZHMiIHNob3dfcGlj
-a3VwX2xpc3Q9IjEiLz4KICAgIDwvY29tcG9uZW50PgoKICAgIDxjb21wb25lbnQ+PGZpZWxkIHJl
-Zj0idmlld3Blcm1zIiByZXF1aXJlZD0ieWVzIi8+PC9jb21wb25lbnQ+Cjwvc3RhZ2U+Cgo8L3dv
-cmtmbG93Pgo=
+PgogICAgICA8dXBsb2FkLW1ldGhvZHM+CiAgICAgICAgPG1ldGhvZD5maWxlPC9tZXRob2Q+CiAg
+ICAgICAgPG1ldGhvZD5zaGFyZWxpbms8L21ldGhvZD4KICAgICAgPC91cGxvYWQtbWV0aG9kcz4K
+ICAgIDwvY29tcG9uZW50PgogICAgPGNvbXBvbmVudCB0eXBlPSJEb2N1bWVudHMiPgogICAgICA8
+ZmllbGQgcmVmPSJkZXNjcmlwdGlvbiIvPgogICAgPC9jb21wb25lbnQ+CgogICAgPGNvbXBvbmVu
+dCB0eXBlPSJGaWVsZDo6TXVsdGkiPgogICAgICA8dGl0bGU+TWVkU2hhcmUgUmVzb3VyY2UgSW5m
+b3JtYXRpb248L3RpdGxlPgogICAgICA8ZmllbGQgcmVmPSJ0aXRsZSIgcmVxdWlyZWQ9InllcyIg
+Lz4KICAgICAgPGZpZWxkIHJlZj0iYWJzdHJhY3QiLz4KICAgIDwvY29tcG9uZW50PgoKICAgIDxj
+b21wb25lbnQgdHlwZT0iRmllbGQ6OkZhY2V0Q1NWIiBjc3Y9Im1lZHNoYXJlX21vZHVsZXMiPgog
+ICAgICA8dGl0bGU+TWVkU2hhcmUgTW9kdWxlIFNlbGVjdDwvdGl0bGU+CiAgICAgIDxmaWVsZCBy
+ZWY9Im1lZHNoYXJlX3Byb2dyYW1tZSIgLz4KICAgICAgPGZpZWxkIHJlZj0ibWVkc2hhcmVfeWVh
+ciIgLz4KICAgICAgPGZpZWxkIHJlZj0ibWVkc2hhcmVfbW9kdWxlIiAvPgogICAgPC9jb21wb25l
+bnQ+CgogICAgPGNvbXBvbmVudCB0eXBlPSJGaWVsZDo6VGFnTGl0ZSI+Cgk8ZmllbGQgcmVmPSJy
+YXdfa2V5d29yZHMiIHNob3dfcGlja3VwX2xpc3Q9IjEiLz4KICAgIDwvY29tcG9uZW50PgoKICAg
+IDxjb21wb25lbnQ+PGZpZWxkIHJlZj0idmlld3Blcm1zIiByZXF1aXJlZD0ieWVzIi8+PC9jb21w
+b25lbnQ+Cjwvc3RhZ2U+Cgo8L3dvcmtmbG93Pgo=
 </data>
         </file>
         <file>
-          <filename>epm/medshare_archive/lib/plugins/EPrints/Plugin/Screen/EPMC/MedShareArchive.pm</filename>
-          <mime_type>text/plain</mime_type>
+          <filename>plugins/EPrints/Plugin/InputForm/Component/Field/FacetCSV.pm</filename>
+          <mime_type>inode/symlink</mime_type>
+          <hash>8a2be24b01af182894e4a5e5b824c86b</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>4140</filesize>
+          <data encoding='base64'>cGFja2FnZSBFUHJpbnRzOjpQbHVnaW46OklucHV0Rm9ybTo6Q29tcG9uZW50OjpGaWVsZDo6RmFj
+ZXRDU1Y7Cgp1c2UgRVByaW50czsKdXNlIEVQcmludHM6OlBsdWdpbjo6SW5wdXRGb3JtOjpDb21w
+b25lbnQ6OkZpZWxkOwoKdXNlIFRleHQ6OkNTVjsKCkBJU0EgPSAoICdFUHJpbnRzOjpQbHVnaW46
+OklucHV0Rm9ybTo6Q29tcG9uZW50OjpGaWVsZCcpOwoKdXNlIHN0cmljdDsKCnN1YiBuZXcKewoJ
+bXkoICRjbGFzcywgJW9wdHMgKSA9IEBfOwoKCW15ICRzZWxmID0gJGNsYXNzLT5TVVBFUjo6bmV3
+KCAlb3B0cyApOwoJJHNlbGYtPntuYW1lfSA9ICdGYWNldCBDU1YnOwogICAgICAgICRzZWxmLT57
+dmlzaWJsZX0gPSAiYWxsIjsKCglyZXR1cm4gJHNlbGY7Cn0KCgpzdWIgcGFyc2VfY29uZmlnCnsK
+CW15KCAkc2VsZiwgJGNvbmZpZ19kb20gKSA9IEBfOwoKCSRzZWxmLT57Y29uZmlnfS0+e2ZpZWxk
+c30gPSBbXTsKCSRzZWxmLT57Y29uZmlnfS0+e3RpdGxlfSA9ICRzZWxmLT57c2Vzc2lvbn0tPm1h
+a2VfZG9jX2ZyYWdtZW50OwoKCSRzZWxmLT57Y29uZmlnfS0+e2Nzdn0gPSAkY29uZmlnX2RvbS0+
+Z2V0QXR0cmlidXRlKCJjc3YiKTsKCglmb3JlYWNoIG15ICRub2RlICggJGNvbmZpZ19kb20tPmdl
+dENoaWxkTm9kZXMgKQoJewoJCWlmKCAkbm9kZS0+bm9kZU5hbWUgZXEgImZpZWxkIiApCgkJewoJ
+CQlteSAkZmllbGQgPSAkc2VsZi0+eG1sX3RvX21ldGFmaWVsZCggJG5vZGUgKTsKCQkJcmV0dXJu
+IGlmICFkZWZpbmVkICRmaWVsZDsKCQkJcHVzaCBAeyRzZWxmLT57Y29uZmlnfS0+e2ZpZWxkc319
+LCAkZmllbGQ7CgkJfQoKCQlpZiggJG5vZGUtPm5vZGVOYW1lIGVxICJ0aXRsZSIgKQoJCXsKCQkJ
+JHNlbGYtPntjb25maWd9LT57dGl0bGV9ID0gRVByaW50czo6WE1MOjpjb250ZW50c19vZiggJG5v
+ZGUgKTsKCQl9CgkJaWYgKCAkbm9kZS0+bm9kZU5hbWUgZXEgImhlbHAiICkKCQl7CgkJCW15ICRw
+aHJhc2VfcmVmID0gJG5vZGUtPmdldEF0dHJpYnV0ZSggInJlZiIgKTsKCQkJJHNlbGYtPntjb25m
+aWd9LT57aGVscH0gPSAkc2VsZi0+e3Nlc3Npb259LT5tYWtlX2VsZW1lbnQoICJkaXYiLCBjbGFz
+cz0+ImVwX3NyX2hlbHBfY2h1bmsiICk7CiAgICAgICAgICAgICAgICAgICAgICAgIGlmKCBFUHJp
+bnRzOjpVdGlsczo6aXNfc2V0KCAkcGhyYXNlX3JlZiApICkKICAgICAgICAgICAgICAgICAgICAg
+ICAgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICRzZWxmLT57Y29uZmlnfS0+e2hl
+bHB9LT5hcHBlbmRDaGlsZCggJHNlbGYtPntzZXNzaW9ufS0+aHRtbF9waHJhc2UoICRwaHJhc2Vf
+cmVmICkgKTsKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAg
+ICBlbHNlCiAgICAgICAgICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAkc2VsZi0+e2NvbmZpZ30tPntoZWxwfSA9IEVQcmludHM6OlhNTDo6Y29udGVudHNf
+b2YoICRub2RlICk7CiAgICAgICAgICAgICAgICAgICAgICAgIH0KCQl9Cgl9Cn0KCnN1YiB1cGRh
+dGVfZnJvbV9mb3JtCnsKCW15KCAkc2VsZiwgJHByb2Nlc3NvciApID1AXzsKCglteSAkb2JqID0g
+JHNlbGYtPntkYXRhb2JqfTsKCgkjIHByb2Nlc3Mgc3R1ZmYKfQoKCnN1YiBwYXJzZV9jc3YKewoJ
+bXkoICRzZWxmICkgPSBAXzsKCW15ICRjc3ZfcGF0aCA9ICRzZWxmLT57c2Vzc2lvbn0tPmdldF9j
+b25mKCAiYXJjaGl2ZXJvb3QiICkuIi9jZmcvc3RhdGljLyIuJHNlbGYtPntjb25maWd9LT57Y3N2
+fTsKCXByaW50IFNUREVSUiAiXG4iLiRjc3ZfcGF0aC4iXG4iOwoJcmV0dXJuICJmdWNrIHlvdSI7
+Cn0KCnN1YiByZW5kZXJfY29udGVudAp7CglteSggJHNlbGYsICRzdXJyb3VuZCApID0gQF87CgoJ
+JHNlbGYtPnBhcnNlX2NzdjsKCiAgICAgICAgbXkgJGZyYWcgPSAkc2VsZi0+e3Nlc3Npb259LT5t
+YWtlX2RvY19mcmFnbWVudDsKCiAgICAgICAgbXkgJHRhYmxlID0gJHNlbGYtPntzZXNzaW9ufS0+
+bWFrZV9lbGVtZW50KCAidGFibGUiLCBjbGFzcyA9PiAiZXBfbXVsdGkiICk7CiAgICAgICAgJGZy
+YWctPmFwcGVuZENoaWxkKCAkdGFibGUgKTsKCiAgICAgICAgbXkgJHRib2R5ID0gJHNlbGYtPntz
+ZXNzaW9ufS0+bWFrZV9lbGVtZW50KCAidGJvZHkiICk7CiAgICAgICAgJHRhYmxlLT5hcHBlbmRD
+aGlsZCggJHRib2R5ICk7CiAgICAgICAgbXkgJGZpcnN0ID0gMTsKICAgICAgICBmb3JlYWNoIG15
+ICRmaWVsZCAoIEB7JHNlbGYtPntjb25maWd9LT57ZmllbGRzfX0gKQogICAgICAgIHsKICAgICAg
+ICAgICAgICAgIG15ICVwYXJ0czsKICAgICAgICAgICAgICAgICRwYXJ0c3tjbGFzc30gPSAiIjsK
+ICAgICAgICAgICAgICAgICRwYXJ0c3tjbGFzc30gPSAiZXBfZmlyc3QiIGlmICRmaXJzdDsKICAg
+ICAgICAgICAgICAgICRmaXJzdCA9IDA7CgogICAgICAgICAgICAgICAgJHBhcnRze2xhYmVsfSA9
+ICRmaWVsZC0+cmVuZGVyX25hbWUoICRzZWxmLT57c2Vzc2lvbn0gKTsKCiAgICAgICAgICAgICAg
+ICBpZiggJGZpZWxkLT57cmVxdWlyZWR9ICkgIyBtb2o6IEhhbmRsZSBmb3JfYXJjaGl2ZQogICAg
+ICAgICAgICAgICAgewogICAgICAgICAgICAgICAgICAgICAgICAkcGFydHN7bGFiZWx9ID0gJHNl
+bGYtPntzZXNzaW9ufS0+aHRtbF9waHJhc2UoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgInN5czplcF9mb3JtX3JlcXVpcmVkIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICBsYWJlbD0+JHBhcnRze2xhYmVsfSApOwogICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAg
+ICAgICRwYXJ0c3toZWxwfSA9ICRmaWVsZC0+cmVuZGVyX2hlbHAoICRzZWxmLT57c2Vzc2lvbn0g
+KTsKCgogICAgICAgICAgICAgICAgIyBHZXQgdGhlIGZpZWxkIGFuZCBpdHMgdmFsdWUvZGVmYXVs
+dAogICAgICAgICAgICAgICAgbXkgJHZhbHVlOwogICAgICAgICAgICAgICAgaWYoICRzZWxmLT57
+ZGF0YW9ian0gKQogICAgICAgICAgICAgICAgewogICAgICAgICAgICAgICAgICAgICAgICAkdmFs
+dWUgPSAkc2VsZi0+e2RhdGFvYmp9LT5nZXRfdmFsdWUoICRmaWVsZC0+e25hbWV9ICk7CiAgICAg
+ICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBlbHNlCiAgICAgICAgICAgICAgICB7CiAgICAg
+ICAgICAgICAgICAgICAgICAgICR2YWx1ZSA9ICRzZWxmLT57ZGVmYXVsdH07CiAgICAgICAgICAg
+ICAgICB9CiAgICAgICAgICAgICAgICAkcGFydHN7ZmllbGR9ID0gJGZpZWxkLT5yZW5kZXJfaW5w
+dXRfZmllbGQoCiAgICAgICAgICAgICAgICAgICAgICAgICRzZWxmLT57c2Vzc2lvbn0sCiAgICAg
+ICAgICAgICAgICAgICAgICAgICR2YWx1ZSwKICAgICAgICAgICAgICAgICAgICAgICAgdW5kZWYs
+CiAgICAgICAgICAgICAgICAgICAgICAgIDAsCiAgICAgICAgICAgICAgICAgICAgICAgIHVuZGVm
+LAogICAgICAgICAgICAgICAgICAgICAgICAkc2VsZi0+e2RhdGFvYmp9LAogICAgICAgICAgICAg
+ICAgICAgICAgICAkc2VsZi0+e3ByZWZpeH0sCgogICAgICAgICAgICAgICAgICApOwoKICAgICAg
+ICAgICAgICAgIEBwYXJ0c3txdyggbm9faGVscCBub190b2dnbGUgKX0gPSBAJHNlbGZ7cXcoIG5v
+X2hlbHAgbm9fdG9nZ2xlICl9OwoKICAgICAgICAgICAgICAgICRwYXJ0c3toZWxwX3ByZWZpeH0g
+PSAkc2VsZi0+e3ByZWZpeH0uIl9oZWxwXyIuJGZpZWxkLT5nZXRfbmFtZTsKCiAgICAgICAgICAg
+ICAgICAkdGFibGUtPmFwcGVuZENoaWxkKCAkc2VsZi0+e3Nlc3Npb259LT5yZW5kZXJfcm93X3dp
+dGhfaGVscCggJXBhcnRzICkgKTsKICAgICAgICB9CgogICAgICAgICRmcmFnLT5hcHBlbmRDaGls
+ZCggJHNlbGYtPntzZXNzaW9ufS0+bWFrZV9qYXZhc2NyaXB0KCA8PEVPSiApICk7Cm5ldyBDb21w
+b25lbnRfRmllbGQgKCckc2VsZi0+e3ByZWZpeH0nKTsKRU9KCgogICAgICAgIHJldHVybiAkZnJh
+ZzsKfQoKc3ViIGhhc19oZWxwCnsKCW15KCAkc2VsZiApID0gQF87CglyZXR1cm4gZGVmaW5lZCAk
+c2VsZi0+e2NvbmZpZ30tPntoZWxwfTsKfQoKc3ViIHJlbmRlcl90aXRsZQp7CglteSggJHNlbGYs
+ICRzdXJyb3VuZCApID0gQF87CglyZXR1cm4gJHNlbGYtPntzZXNzaW9ufS0+Y2xvbmVfZm9yX21l
+KCAkc2VsZi0+e2NvbmZpZ30tPnt0aXRsZX0sIDEgKTsKfQoK
+</data>
+        </file>
+        <file>
+          <filename>plugins/EPrints/Plugin/Screen/EPMC/MedShareArchive.pm</filename>
+          <mime_type>inode/symlink</mime_type>
           <hash>e46b54f1485820cda718f1dce9598fa3</hash>
           <hash_type>MD5</hash_type>
           <filesize>1277</filesize>
@@ -60,9 +202,9 @@ ZiAhJHNraXBfcmVsb2FkOwp9CgoxOwo=
 </data>
         </file>
       </files>
-      <mime_type>text/plain</mime_type>
-      <format>text</format>
-      <main>epm/medshare_archive/lib/plugins/EPrints/Plugin/Screen/EPMC/MedShareArchive.pm</main>
+      <mime_type>inode/symlink</mime_type>
+      <format>other</format>
+      <main>plugins/EPrints/Plugin/Screen/EPMC/MedShareArchive.pm</main>
       <content>install</content>
     </document>
   </documents>
