@@ -22,11 +22,8 @@
       <field ref="abstract"/>
     </component>
 
-    <component type="Field::FacetCSV" csv="medshare_modules">
-      <title>MedShare Module Select</title>
-      <field ref="medshare_programme" />
-      <field ref="medshare_year" />
-      <field ref="medshare_module" />
+    <component>
+      <field ref="course_raw" />
     </component>
 
     <component type="Field::TagLite">

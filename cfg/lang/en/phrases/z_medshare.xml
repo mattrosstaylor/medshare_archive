@@ -1,10 +1,77 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE phrases SYSTEM "entities.dtd">
 <epp:phrases xmlns="http://www.w3.org/1999/xhtml" xmlns:epp="http://eprints.org/ep3/phrase" xmlns:epc="http://eprints.org/ep3/control">
-	<epp:phrase id="eprint_fieldname_medshare_programme">Programme</epp:phrase>
-	<epp:phrase id="eprint_fieldhelp_medshare_programme">What programme?</epp:phrase>
-	<epp:phrase id="eprint_fieldname_medshare_year">Year of Study</epp:phrase>
-	<epp:phrase id="eprint_fieldhelp_medshare_year">What year?</epp:phrase>
-	<epp:phrase id="eprint_fieldname_medshare_module">Module</epp:phrase>
-	<epp:phrase id="eprint_fieldhelp_medshare_module">What module?</epp:phrase>
+	<epp:phrase id="eprint_fieldname_course_raw">Programme, Year &amp; Module </epp:phrase>
+	<epp:phrase id="eprint_fieldname_course_raw_programme_year">Programme &amp; Year</epp:phrase>
+	<epp:phrase id="eprint_fieldhelp_course_raw_programme_year">What programme and year of study?</epp:phrase>
+	<epp:phrase id="eprint_fieldname_course_raw_module">Module</epp:phrase>
+	<epp:phrase id="eprint_fieldhelp_course_raw_module">What module?</epp:phrase>
+
+	<!-- medshare_programme_year -->
+	<epp:phrase id="medshare_programme_year_typename_bm6_y0">BM6 Y0</epp:phrase>
+	<epp:phrase id="medshare_programme_year_typename_bm5_y1">BM5 Y1</epp:phrase>
+	<epp:phrase id="medshare_programme_year_typename_bm5_y2">BM5 Y2</epp:phrase>
+	<epp:phrase id="medshare_programme_year_typename_bm5_y3">BM5 Y3</epp:phrase>
+	<epp:phrase id="medshare_programme_year_typename_bm5_y4">BM5 Y4</epp:phrase>
+	<epp:phrase id="medshare_programme_year_typename_bm5_y5">BM5 Y5</epp:phrase>
+	<epp:phrase id="medshare_programme_year_typename_bm4_y1">BM4 Y1</epp:phrase>
+	<epp:phrase id="medshare_programme_year_typename_bm4_y2">BM4 Y2</epp:phrase>
+
+	<!-- medshare_module -->
+<!-- bm6_y0 -->
+	<epp:phrase id="medshare_module_typename_human_structure_function_1">Human Structure &amp; Function 1</epp:phrase>
+	<epp:phrase id="medshare_module_typename_professional_practice_1">Progressional Practise 1</epp:phrase>
+	<epp:phrase id="medshare_module_typename_human_structure_function_2">Human Structure &amp; Function 2</epp:phrase>
+	<epp:phrase id="medshare_module_typename_professional_practice_2">Progressional Practise 2</epp:phrase>
+<!-- bm5_y1 -->
+	<epp:phrase id="medshare_module_typename_foundations_of_medicine">Foundations Of Medicine</epp:phrase>
+	<epp:phrase id="medshare_module_typename_nervous_locomotor_1">Nervous &amp; Locomotor 1</epp:phrase>
+	<epp:phrase id="medshare_module_typename_respiratory_cardiovascular_renal_1">Respiratory, Cardiovascular &amp; Renal 1</epp:phrase>
+	<epp:phrase id="medshare_module_typename_medicine_in_practice_1">Medicine in Practise 1</epp:phrase>
+	<epp:phrase id="medshare_module_typename_ssu_1_2">SSU 1&amp;2</epp:phrase>
+<!-- bm5_y2 -->
+	<epp:phrase id="medshare_module_typename_respiratory_cardiovascular_renal_2">Respiratory, Cardiovascular &amp; Renal 2 </epp:phrase>
+	<epp:phrase id="medshare_module_typename_nervous_locomotor_2">Nervous &amp; Locomotor 2</epp:phrase>
+	<epp:phrase id="medshare_module_typename_gi">GI</epp:phrase>
+	<epp:phrase id="medshare_module_typename_endocrinology_the_lifecycle">Endocrinology &amp; the Lifecycle</epp:phrase>
+	<epp:phrase id="medshare_module_typename_medicine_in_practice_2_hca">Medicide in Practise 2/HCA</epp:phrase>
+	<epp:phrase id="medshare_module_typename_research_for_medicine_health">Research for Medicine &amp; Health</epp:phrase>
+<!-- bm5_y3 -->
+	<epp:phrase id="medshare_module_typename_research_project">Research Project</epp:phrase>
+	<epp:phrase id="medshare_module_typename_medicine_elderly_care">Medicine &amp; Elderly Care</epp:phrase>
+	<epp:phrase id="medshare_module_typename_primary_medical_care_long_term_conditions">Primary Medical Care &amp; Long Term Conditions</epp:phrase>
+	<epp:phrase id="medshare_module_typename_surgery_orthopaedics">Surgery &amp; Orthopaedics</epp:phrase>
+	<epp:phrase id="medshare_module_typename_scientific_basis_of_medicine">Scientific Basis of Medicine</epp:phrase>
+	<epp:phrase id="medshare_module_typename_ssu3">SSU3</epp:phrase>
+	<epp:phrase id="medshare_module_typename_year_3_assessment">Year 3 Assessment</epp:phrase>
+<!-- bm5_y4 -->
+	<epp:phrase id="medshare_module_typename_psychiatry">Psychiactry</epp:phrase>
+	<epp:phrase id="medshare_module_typename_acute_care">Acute Care</epp:phrase>
+	<epp:phrase id="medshare_module_typename_speciality_weeks">Speciality Weeks</epp:phrase>
+	<epp:phrase id="medshare_module_typename_obstetrics_gynaecology_gum">Obstetric &amp; Gynaecology/GUM</epp:phrase>
+	<epp:phrase id="medshare_module_typename_child_health">Child Health</epp:phrase>
+	<epp:phrase id="medshare_module_typename_scientific_basis_of_clinical_practice">Scientific Basis Of Clinical Practise</epp:phrase>
+	<epp:phrase id="medshare_module_typename_clinical_ethics_law">Clinical Ehtics &amp; Law</epp:phrase>
+	<epp:phrase id="medshare_module_typename_personal_professional_development_1">Personal Professional Development 1</epp:phrase>
+	<epp:phrase id="medshare_module_typename_year_4_assessment">Year 4 Assessment</epp:phrase>
+<!-- bm5_y5 -->
+	<epp:phrase id="medshare_module_typename_surgery">Surgery</epp:phrase>
+	<epp:phrase id="medshare_module_typename_primary_medical_care">Primary Health Care</epp:phrase>
+	<epp:phrase id="medshare_module_typename_medicine">Medicine</epp:phrase>
+	<epp:phrase id="medshare_module_typename_personal_professional_development_2">Personal Professional Development 2</epp:phrase>
+	<epp:phrase id="medshare_module_typename_ssu4">SSU4</epp:phrase>
+	<epp:phrase id="medshare_module_typename_assistantship">Assistantship</epp:phrase>
+	<epp:phrase id="medshare_module_typename_elective">Elective</epp:phrase>
+	<epp:phrase id="medshare_module_typename_year_5_assessment">Year 5 Assessment</epp:phrase>
+<!-- bm4_y1 -->
+	<epp:phrase id="medshare_module_typename_foundations_of_medicine_part_1">Foundations of Medicine Part 1</epp:phrase>
+	<epp:phrase id="medshare_module_typename_integration_of_knowledge_and_clinical_medicine_part_1">Integration of Knowledge and Clinical Medicine Part 1</epp:phrase>
+	<epp:phrase id="medshare_module_typename_clinical_practice_experience_part_1">Clinical Practise Experience Part 1</epp:phrase>
+	<epp:phrase id="medshare_module_typename_clinical_medicine_part_1">Clinical Medicine Part 1</epp:phrase>
+<!-- bm4_y2 -->
+	<epp:phrase id="medshare_module_typename_foundations_of_medicine_part_2">Foundations of Medicine Part 2</epp:phrase>
+	<epp:phrase id="medshare_module_typename_integration_of_knowledge_and_clinical_medicine_part_2">Integration of Knowledge and Clinical Medicine Part 2</epp:phrase>
+	<epp:phrase id="medshare_module_typename_clinical_practice_experience_part_2">Clinical Practise Experience Part 2</epp:phrase>
+	<epp:phrase id="medshare_module_typename_clinical_medicine_part_2">Clinical Medicine Part 2</epp:phrase>
+
 </epp:phrases>
