@@ -8,16 +8,16 @@
         <file>
           <filename>epm/medshare_archive/cfg/cfg.d/z_medshare.pl</filename>
           <mime_type>text/plain</mime_type>
-          <hash>13a1b56e255e3dca4d60b8f91d43bfc9</hash>
+          <hash>ee745c9efeba16a44443581dce3c078d</hash>
           <hash_type>MD5</hash_type>
-          <filesize>970</filesize>
+          <filesize>1051</filesize>
         </file>
         <file>
           <filename>epm/medshare_archive/cfg/lang/en/phrases/z_medshare.xml</filename>
           <mime_type>application/xml</mime_type>
-          <hash>859a4b8803842640a9e5859e46e84c59</hash>
+          <hash>c51800e1933dea8a96747b9d08fcfaf4</hash>
           <hash_type>MD5</hash_type>
-          <filesize>6446</filesize>
+          <filesize>6447</filesize>
         </file>
         <file>
           <filename>epm/medshare_archive/cfg/namedsets/medshare_module</filename>
@@ -50,23 +50,30 @@
         <file>
           <filename>epm/medshare_archive/cfg/static/javascript/auto/medshare_modules.js</filename>
           <mime_type>text/plain</mime_type>
-          <hash>c93faa70c366dafc94a56dc81b134354</hash>
+          <hash>5c1d4a76fdd636248c48da5101c109da</hash>
           <hash_type>MD5</hash_type>
-          <filesize>546</filesize>
+          <filesize>1520</filesize>
         </file>
         <file>
           <filename>epm/medshare_archive/cfg/static/javascript/auto/medshare_select_module.js</filename>
           <mime_type>text/plain</mime_type>
-          <hash>4044881c91de5b7aa517c6081266e98d</hash>
+          <hash>d0f9406ff41967c7b6e79902caeb4857</hash>
           <hash_type>MD5</hash_type>
-          <filesize>236</filesize>
+          <filesize>1894</filesize>
         </file>
         <file>
           <filename>epm/medshare_archive/cfg/workflows/eprint/resource.xml</filename>
           <mime_type>application/xml</mime_type>
-          <hash>932fd63f5cb0488243c1414d6ef646ec</hash>
+          <hash>13f4758574e3a0fc276c09aac52112e7</hash>
           <hash_type>MD5</hash_type>
-          <filesize>883</filesize>
+          <filesize>918</filesize>
+        </file>
+        <file>
+          <filename>plugins/EPrints/Plugin/InputForm/Component/Field/MedShareModuleSelect.pm</filename>
+          <mime_type>inode/symlink</mime_type>
+          <hash>bd5eb2fbe40720e60685f51957c37ad7</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>3517</filesize>
         </file>
         <file>
           <filename>plugins/EPrints/Plugin/Screen/EPMC/MedShareArchive.pm</filename>

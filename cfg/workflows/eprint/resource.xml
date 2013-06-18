@@ -22,7 +22,7 @@
       <field ref="abstract"/>
     </component>
 
-    <component>
+    <component type="Field::MedShareModuleSelect">
       <field ref="course_raw" />
     </component>
 

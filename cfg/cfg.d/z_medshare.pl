@@ -15,13 +15,16 @@ $c->{fields}->{eprint} = [@{$c->{fields}->{eprint}}, (
 	'fields' => [
 		{
 			'sub_name' => 'programme_year',
+			'input_style' => 'medium',
 			'type' => 'namedset',
 			'set_name' => "medshare_programme_year",
+			'required' => 1,
 		},
 		{
 			'sub_name' => 'module',
 			'type' => 'namedset',
 			'set_name' => 'medshare_module',
+			'required' => 1,
 		}
 	],
 },
@@ -53,5 +56,4 @@ $c->{fields}->{eprint} = [@{$c->{fields}->{eprint}}, (
 
 )];
 
-$c->{plugins}->{"InputForm::Component::Field::FacetCSV"}->{params}->{disable} = 0;
-
+$c->{plugins}->{"InputForm::Component::Field::MedShareModuleSelect"}->{params}->{disable} = 0;
