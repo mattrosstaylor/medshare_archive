@@ -1,0 +1,46 @@
+.medshare_module_select_area_programme_year {
+	float:left;
+	position: relative;
+	width: 240px;
+	height: 180px;
+}
+
+.medshare_module_select_title_programme_year {
+	float:left;
+}
+
+.medshare_module_select_area_module, .medshare_module_select_title_module {
+	margin-left: 400px;
+}
+
+.medshare_module_select_title_programme_year, .medshare_module_select_title_module {
+	font-weight: bold;
+	padding-bottom:5px;
+}
+
+.medshare_module_select_area_programme_year img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border: 1px solid silver;
+}
+
+.medshare_module_select_area_programme_year div {
+	position: absolute;
+	z-index: 1;
+}
+
+.medshare_module_select_area_programme_year label {
+	font-size: 0px;
+}
+
+.bm6_y0 { left:53px; top: 8px; }
+.bm5_y1 { left:53px; top: 37px; }
+.bm5_y2 { left:53px; top: 66px; }
+.bm5_y3 { left:53px; top: 95px; }
+.bm5_y4 { left:53px; top: 123px; }
+.bm5_y5 { left:53px; top: 151px; }
+.bm4_y1 { left:185px; top: 8px; }
+.bm4_y2 { left:185px; top: 37px; }
