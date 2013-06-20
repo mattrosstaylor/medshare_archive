@@ -6,6 +6,7 @@ $c->{summary_page_metadata} = [qw/
 	raw_course_module
 	themes
 	subjects
+	keywords
 	license
 /];
 
@@ -61,6 +62,7 @@ $c->{fields}->{eprint} = [@{$c->{fields}->{eprint}}, (
 	'type' => 'namedset',
 	'set_name' => 'medshare_theme',
 	'multiple' => 1,
+	'input_style' => 'checkbox',
 },
 
 {
@@ -68,6 +70,7 @@ $c->{fields}->{eprint} = [@{$c->{fields}->{eprint}}, (
 	'type' => 'namedset',
 	'set_name' => 'medshare_subject',
 	'multiple' => 1,
+	'input_style' => 'checkbox',
 },
 
 )];

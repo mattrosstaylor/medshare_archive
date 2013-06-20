@@ -34,6 +34,10 @@
       <field ref="subjects"/>
     </component>
 
+    <component type="Field::TagLite">
+	<field ref="raw_keywords" show_pickup_list="1"/>
+    </component>
+
     <component><field ref="viewperms" required="yes"/></component>
 </stage>
 
