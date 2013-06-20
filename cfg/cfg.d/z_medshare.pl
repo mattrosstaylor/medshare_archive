@@ -1,14 +1,18 @@
 $c->{summary_page_metadata} = [qw/
 	userid
 	datestamp
-	license
 	creators
 	course
 	raw_course_module
 	themes
 	subjects
-	viewperms
+	license
 /];
+
+# mrt - well, this is totally hardcoded to keywords
+$c->{resourcemanager_filter_fields} = [
+	'raw_course'
+];
 
 $c->{fields}->{eprint} = [@{$c->{fields}->{eprint}}, (
 {

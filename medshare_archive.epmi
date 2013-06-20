@@ -8,9 +8,9 @@
         <file>
           <filename>epm/medshare_archive/cfg/cfg.d/z_medshare.pl</filename>
           <mime_type>text/plain</mime_type>
-          <hash>f714869456b30d43dc9459c1863e4f3d</hash>
+          <hash>7b4fa0dba6adafc3e38d0757a1e90982</hash>
           <hash_type>MD5</hash_type>
-          <filesize>1294</filesize>
+          <filesize>1393</filesize>
         </file>
         <file>
           <filename>epm/medshare_archive/cfg/cfg.d/z_medshare_eprint_automatic_fields.pl</filename>
@@ -106,9 +106,9 @@
         <file>
           <filename>epm/medshare_archive/cfg/workflows/eprint/resource.xml</filename>
           <mime_type>application/xml</mime_type>
-          <hash>ddefa54ce035c3e70f4bde92bcfdbb7e</hash>
+          <hash>4208e13abcdea2fd497b7ad139252cd5</hash>
           <hash_type>MD5</hash_type>
-          <filesize>1018</filesize>
+          <filesize>1084</filesize>
         </file>
         <file>
           <filename>plugins/EPrints/Plugin/InputForm/Component/Field/MedShareModuleSelect.pm</filename>

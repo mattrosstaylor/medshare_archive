@@ -21,7 +21,7 @@
       <field ref="title" required="yes" />
       <field ref="abstract"/>
       <field ref="license"/>
-      <field ref="creators"/>
+      <field ref="creators" input_lookup_url="{$config{rel_cgipath}}/users/lookup/localname" />
     </component>
 
     <component type="Field::MedShareModuleSelect">
