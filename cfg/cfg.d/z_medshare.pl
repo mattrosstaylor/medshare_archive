@@ -75,5 +75,35 @@ $c->{fields}->{eprint} = [@{$c->{fields}->{eprint}}, (
 
 )];
 
+
+$c->{search}->{advanced} = 
+{
+# EdShare - Made new fields searchable and added some new order methods
+	search_fields => [
+		{ meta_fields => [ $EPrints::Utils::FULLTEXT ] },
+		{ meta_fields => [ "title" ] },
+		{ meta_fields => [ "creators_name" ] },
+		{ meta_fields => [ "abstract" ] },
+		{ meta_fields => [ "raw_course_programme_year" ] },
+		{ meta_fields => [ "raw_course_module" ] },
+		{ meta_fields => [ "themes" ] },
+		{ meta_fields => [ "subjects" ] },
+		{ meta_fields => [ "keywords" ] },
+		{ meta_fields => [ "documents.format" ] },
+	],
+	preamble_phrase => "cgi/advsearch:preamble",
+	title_phrase => "cgi/advsearch:adv_search",
+	citation => "result",
+	page_size => 20,
+	order_methods => {
+		"byyear" 	 => "-datestamp/creators_name/title",
+		"byyearoldest"	 => "datestamp/creators_name/title",
+		"byname"  	 => "creators_name/-datestamp/title",
+		"bytitle" 	 => "title/creators_name/-datestamp"
+	},
+	default_order => "byyear",
+	show_zero_results => 1,
+};
+
 $c->{plugins}->{"InputForm::Component::Field::MedShareModuleSelect"}->{params}->{disable} = 0;
 $c->{plugins}->{"MedShareUtils"}->{params}->{disable} = 0;
