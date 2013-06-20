@@ -1,11 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE phrases SYSTEM "entities.dtd">
 <epp:phrases xmlns="http://www.w3.org/1999/xhtml" xmlns:epp="http://eprints.org/ep3/phrase" xmlns:epc="http://eprints.org/ep3/control">
-	<epp:phrase id="eprint_fieldname_course_raw">Programme, Year &amp; Module </epp:phrase>
-	<epp:phrase id="eprint_fieldname_course_raw_programme_year">Programme &amp; Year</epp:phrase>
-	<epp:phrase id="eprint_fieldhelp_course_raw_programme_year">What programme and year of study?</epp:phrase>
-	<epp:phrase id="eprint_fieldname_course_raw_module">Module</epp:phrase>
-	<epp:phrase id="eprint_fieldhelp_course_raw_module">What module?</epp:phrase>
+	<epp:phrase id="eprint_fieldname_raw_course">Programme, Year &amp; Module </epp:phrase>
+	<epp:phrase id="eprint_fieldhelp_raw_course">What programme and module is this resource part of?</epp:phrase>
+	<epp:phrase id="eprint_fieldname_raw_course_programme_year">Programme &amp; Year</epp:phrase>
+	<epp:phrase id="eprint_fieldhelp_raw_course_programme_year">What programme and year of study?</epp:phrase>
+	<epp:phrase id="eprint_fieldname_raw_course_module">Module</epp:phrase>
+	<epp:phrase id="eprint_fieldhelp_raw_course_module">What module?</epp:phrase>
+	<epp:phrase id="eprint_fieldname_course">Relevant courses</epp:phrase>
+	<epp:phrase id="eprint_fieldname_course_programme">Programme</epp:phrase>
+	<epp:phrase id="eprint_fieldname_course_year">Year</epp:phrase>
+
+
+	<epp:phrase id="eprint_fieldname_themes">Themes</epp:phrase>
+	<epp:phrase id="eprint_fieldhelp_themes">What themes are addressed in this resource?</epp:phrase>
+	<epp:phrase id="eprint_fieldname_subjects">Subjects</epp:phrase>
+	<epp:phrase id="eprint_fieldhelp_subjects">What subjects are covered in this resource?</epp:phrase>
+
+
 
 	<!-- medshare_programme_year -->
 	<epp:phrase id="medshare_programme_year_typename_bm6_y0">BM6 Y0</epp:phrase>
@@ -17,6 +29,19 @@
 	<epp:phrase id="medshare_programme_year_typename_bm4_y1">BM4 Y1</epp:phrase>
 	<epp:phrase id="medshare_programme_year_typename_bm4_y2">BM4 Y2</epp:phrase>
 
+	<!-- medshare_programme -->
+	<epp:phrase id="medshare_programme_typename_bm4">BM4</epp:phrase>
+	<epp:phrase id="medshare_programme_typename_bm5">BM5</epp:phrase>
+	<epp:phrase id="medshare_programme_typename_bm6">BM6</epp:phrase>
+	
+	<!-- medshare_year -->
+	<epp:phrase id="medshare_year_typename_y0">Y0</epp:phrase>
+	<epp:phrase id="medshare_year_typename_y1">Y1</epp:phrase>
+	<epp:phrase id="medshare_year_typename_y2">Y2</epp:phrase>
+	<epp:phrase id="medshare_year_typename_y3">Y3</epp:phrase>
+	<epp:phrase id="medshare_year_typename_y4">Y4</epp:phrase>
+	<epp:phrase id="medshare_year_typename_y5">Y5</epp:phrase>
+	
 	<!-- medshare_module -->
 <!-- bm6_y0 -->
 	<epp:phrase id="medshare_module_typename_human_structure_function_1">Human Structure &amp; Function 1</epp:phrase>
@@ -74,4 +99,30 @@
 	<epp:phrase id="medshare_module_typename_clinical_practice_experience_part_2">Clinical Practice Experience Part 2</epp:phrase>
 	<epp:phrase id="medshare_module_typename_clinical_medicine_part_2">Clinical Medicine Part 2</epp:phrase>
 
+
+<!-- themes -->
+	<epp:phrase id="medshare_theme_typename_communication">Communication</epp:phrase> 
+	<epp:phrase id="medshare_theme_typename_diversity">Diversity</epp:phrase> 
+	<epp:phrase id="medshare_theme_typename_teamworking">Teamworking, Leadership and Patient Safety</epp:phrase> 
+
+<!-- subjects -->
+	<epp:phrase id="medshare_subject_typename_alcohol_and_addiction">Alcohol and Addiction</epp:phrase>
+	<epp:phrase id="medshare_subject_typename_anatomy">Anatomy</epp:phrase>
+	<epp:phrase id="medshare_subject_typename_clinical_ethics_and_law">Clinical Ethics and Law</epp:phrase>
+	<epp:phrase id="medshare_subject_typename_clinical_pharmacology_and_therapeutics">Clinical Pharmacology and Therapeutics</epp:phrase>
+	<epp:phrase id="medshare_subject_typename_complementary_and_alternative_medicine">Complementary and Alternative Medicine</epp:phrase>
+	<epp:phrase id="medshare_subject_typename_haematology">Haematology</epp:phrase>
+	<epp:phrase id="medshare_subject_typename_human_genetics">Human Genetics</epp:phrase>
+	<epp:phrase id="medshare_subject_typename_human_nutrition">Human Nutrition</epp:phrase>
+	<epp:phrase id="medshare_subject_typename_immunology">Immunology</epp:phrase>
+	<epp:phrase id="medshare_subject_typename_microbiology_and_infection">Microbiology and Infection</epp:phrase>
+	<epp:phrase id="medshare_subject_typename_molecular_cell_biology">Molectular Cell Biology</epp:phrase>
+	<epp:phrase id="medshare_subject_typename_oncology">Oncology</epp:phrase>
+	<epp:phrase id="medshare_subject_typename_pathology">Pathology</epp:phrase>
+	<epp:phrase id="medshare_subject_typename_personal_and_professional_development">Personal and Professional Development</epp:phrase>
+	<epp:phrase id="medshare_subject_typename_physiology">Physiology</epp:phrase>
+	<epp:phrase id="medshare_subject_typename_psychology_as_applied_to_medicine">Psychology as Applied to Medicine</epp:phrase>
+	<epp:phrase id="medshare_subject_typename_public_health">Public Health</epp:phrase>
+	<epp:phrase id="medshare_subject_typename_radiology">Radiology</epp:phrase>
+	<epp:phrase id="medshare_subject_typename_sociology_as_applied_to_medicine">Sociology as Applied to Medicine</epp:phrase>
 </epp:phrases>

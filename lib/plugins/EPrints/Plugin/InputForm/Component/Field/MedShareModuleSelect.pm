@@ -28,10 +28,8 @@ sub render_content
 
 	foreach my $fieldname ( "programme_year", "module" )
 	{
-		my $field = $self->{dataobj}->{dataset}->field("course_raw_".$fieldname);
+		my $field = $self->{dataobj}->{dataset}->field("raw_course_".$fieldname);
 
-
-		print STDERR $field;
 		# Get the field and its value/default
 		my $value;
 

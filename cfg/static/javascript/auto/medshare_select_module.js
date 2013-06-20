@@ -11,8 +11,8 @@ document.observe( 'dom:loaded', function() {
 	});
 
 	// get the ids for each of the components
-	mmsProgrammeYearId = medshare_component.id+"_course_raw_programme_year";
-	mmsModuleId = medshare_component.id+"_course_raw_module";
+	mmsProgrammeYearId = medshare_component.id+"_raw_course_programme_year";
+	mmsModuleId = medshare_component.id+"_raw_course_module";
 
 	// clone existing moduleSelectElement and deselect everything
 	mmsClonedModuleSelect = Element.clone($(mmsModuleId), true);	

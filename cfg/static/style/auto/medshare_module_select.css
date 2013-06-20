@@ -1,21 +1,11 @@
 .medshare_module_select_area_programme_year {
-	float:left;
 	position: relative;
 	width: 240px;
 	height: 180px;
 }
 
-.medshare_module_select_title_programme_year {
-	float:left;
-}
-
-.medshare_module_select_area_module, .medshare_module_select_title_module {
-	margin-left: 400px;
-}
-
-.medshare_module_select_title_programme_year, .medshare_module_select_title_module {
-	font-weight: bold;
-	padding-bottom:5px;
+.medshare_module_select_area_module select {
+	width: 300px;
 }
 
 .medshare_module_select_area_programme_year img {

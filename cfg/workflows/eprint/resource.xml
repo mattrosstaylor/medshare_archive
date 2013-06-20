@@ -17,17 +17,21 @@
     </component>
 
     <component type="Field::Multi">
-      <title>MedShare Resource Information</title>
+      <title>Resource Information</title>
       <field ref="title" required="yes" />
       <field ref="abstract"/>
+      <field ref="license"/>
+      <field ref="creators"/>
     </component>
 
     <component type="Field::MedShareModuleSelect">
-      <field ref="course_raw" />
+      <field ref="raw_course" />
     </component>
 
-    <component type="Field::TagLite">
-	<field ref="raw_keywords" show_pickup_list="1"/>
+    <component type="Field::Multi">
+      <title>Subjects &amp; Themes</title>
+      <field ref="themes" />
+      <field ref="subjects"/>
     </component>
 
     <component><field ref="viewperms" required="yes"/></component>

@@ -1,17 +1,20 @@
 $c->{summary_page_metadata} = [qw/
 	userid
 	datestamp
-	course_raw_programme_year
-	course_raw_module
-	keywords
+	license
+	creators
+	course
+	raw_course_module
+	themes
+	subjects
 	viewperms
 /];
 
 $c->{fields}->{eprint} = [@{$c->{fields}->{eprint}}, (
 {
-	'name' => 'course_raw',
+	'name' => 'raw_course',
 	'type' => 'compound',
-	'required' => '1',
+	'required' => 1,
 	'fields' => [
 		{
 			'sub_name' => 'programme_year',
@@ -34,6 +37,7 @@ $c->{fields}->{eprint} = [@{$c->{fields}->{eprint}}, (
 	'type' => 'compound',
 	'required' => 1,	
 	'multiple' => 1,
+	'render_value' => 'EPrints::Plugin::MedShareUtils::render_course',
 	'fields' => [
 		{
 			'sub_name' => 'programme',
@@ -45,15 +49,24 @@ $c->{fields}->{eprint} = [@{$c->{fields}->{eprint}}, (
 			'type' => 'namedset',
 			'set_name' => 'medshare_year',
 		},
-		{
-			'sub_name' => 'module',
-			'type' => 'namedset',
-			'set_name' => 'medshare_module',
-		}
 	],
-}
+},
 
+{
+	'name' => 'themes',
+	'type' => 'namedset',
+	'set_name' => 'medshare_theme',
+	'multiple' => 1,
+},
+
+{
+	'name' => 'subjects',
+	'type' => 'namedset',
+	'set_name' => 'medshare_subject',
+	'multiple' => 1,
+},
 
 )];
 
 $c->{plugins}->{"InputForm::Component::Field::MedShareModuleSelect"}->{params}->{disable} = 0;
+$c->{plugins}->{"MedShareUtils"}->{params}->{disable} = 0;
