@@ -28,7 +28,7 @@ sub render_content
 
 	foreach my $fieldname ( "programme_year", "module" )
 	{
-		my $field = $self->{dataobj}->{dataset}->field("raw_course_".$fieldname);
+		my $field = $self->{dataobj}->{dataset}->field("course_".$fieldname);
 
 		# Get the field and its value/default
 		my $value;
@@ -60,7 +60,7 @@ sub render_content
 	}
 
 	my $javascript = $session->make_element("script", type=>"text/javascript");
-	$javascript->appendChild($session->make_text("var medshare_component=".$self->{prefix}.";"));
+	$javascript->appendChild($session->make_text("var medshare_component='".$self->{prefix}."';"));
 	$table->appendChild($javascript);
         return $table;
 

@@ -2,8 +2,8 @@ $c->{summary_page_metadata} = [qw/
 	userid
 	datestamp
 	creators
-	course
-	raw_course_module
+	course_programme_year
+	course_module
 	themes
 	subjects
 	keywords
@@ -17,7 +17,7 @@ $c->{resourcemanager_filter_fields} = [
 
 $c->{fields}->{eprint} = [@{$c->{fields}->{eprint}}, (
 {
-	'name' => 'raw_course',
+	'name' => 'course',
 	'type' => 'compound',
 	'required' => 1,
 	'fields' => [
@@ -34,26 +34,6 @@ $c->{fields}->{eprint} = [@{$c->{fields}->{eprint}}, (
 			'set_name' => 'medshare_module',
 			'required' => 1,
 		}
-	],
-},
-
-{
-	'name' => 'course',
-	'type' => 'compound',
-	'required' => 1,	
-	'multiple' => 1,
-	'render_value' => 'EPrints::Plugin::MedShareUtils::render_course',
-	'fields' => [
-		{
-			'sub_name' => 'programme',
-			'type' => 'namedset',
-			'set_name' => 'medshare_programme',
-		},
-		{
-			'sub_name' => 'year',
-			'type' => 'namedset',
-			'set_name' => 'medshare_year',
-		},
 	],
 },
 

@@ -25,7 +25,7 @@
     </component>
 
     <component type="Field::MedShareModuleSelect">
-      <field ref="raw_course" />
+      <field ref="course" />
     </component>
 
     <component type="Field::Multi">

@@ -5,6 +5,9 @@ package EPrints::Plugin::MedShareUtils;
 use strict;
 use warnings;
 
+# mrt - this might be redundant now
+
+
 sub render_course
 {
         my ( $session , $field , $value, $alllangs, $nolink, $object ) = @_;

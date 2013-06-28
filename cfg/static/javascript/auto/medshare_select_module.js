@@ -5,14 +5,16 @@ var mmsClonedModuleSelect;
 document.observe( 'dom:loaded', function() {
 	// if the medshare component is not selected then we don't need to do anything
 	if (window['medshare_component'] == undefined) return;
-	
+
+
+	// add the image - this is easier than actually doing it with the component	
 	$$(".medshare_module_select_area_programme_year").each(function(div) {
 		div.insert(new Element("img", {src: "/style/images/medshare_module_select_programme_year.jpg" }));
 	});
 
 	// get the ids for each of the components
-	mmsProgrammeYearId = medshare_component.id+"_raw_course_programme_year";
-	mmsModuleId = medshare_component.id+"_raw_course_module";
+	mmsProgrammeYearId = medshare_component+"_course_programme_year";
+	mmsModuleId = medshare_component+"_course_module";
 
 	// clone existing moduleSelectElement and deselect everything
 	mmsClonedModuleSelect = Element.clone($(mmsModuleId), true);	
@@ -22,10 +24,9 @@ document.observe( 'dom:loaded', function() {
 
 	// add on change events for the programme_year select
 	$$("input:radio[name='" +mmsProgrammeYearId +"']").each(function(input) {
-		input.addEventListener('change', function() { mmsSelectProgrammeYear(this.getValue());} );
+		$(input).observe('click', function() { mmsSelectProgrammeYear(this.getValue());} );
 		input.up().up().toggleClassName(input.value);
 	});
-
 
 	// determine which radio button (if any) is selected for programme_year
 	var selectedProgrammeYear;
