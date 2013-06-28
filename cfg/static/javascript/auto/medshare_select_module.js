@@ -6,7 +6,6 @@ document.observe( 'dom:loaded', function() {
 	// if the medshare component is not selected then we don't need to do anything
 	if (window['medshare_component'] == undefined) return;
 
-
 	// add the image - this is easier than actually doing it with the component	
 	$$(".medshare_module_select_area_programme_year").each(function(div) {
 		div.insert(new Element("img", {src: "/style/images/medshare_module_select_programme_year.jpg" }));
@@ -48,6 +47,10 @@ document.observe( 'dom:loaded', function() {
 		$(mmsModuleId).insert(new Element('option').update('Select a programme/year to view modules'));
 	}
 
+	// remove the labels from the input elementss
+	$$(".medshare_module_select_area_programme_year input").each(function(input) {
+		$(input).up().replace($(input));
+	});
 });
 
 
