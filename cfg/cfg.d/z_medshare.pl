@@ -12,7 +12,8 @@ $c->{summary_page_metadata} = [qw/
 
 # mrt - well, this is totally hardcoded to keywords
 $c->{resourcemanager_filter_fields} = [
-	'raw_course'
+	'keywords',
+	'course_programme_year',
 ];
 
 $c->{fields}->{eprint} = [@{$c->{fields}->{eprint}}, (
