@@ -1,0 +1,134 @@
+#!/usr/bin/perl -w -I/opt/eprints3/perl_lib
+
+# EPrints Services LDAP user import
+use EPrints;
+use Getopt::Long;
+use Net::LDAP;
+use Net::LDAP::Control::Paged;
+use Net::LDAP::Constant qw( LDAP_CONTROL_PAGED );
+use strict;
+
+my $verbose = 0;
+GetOptions( 
+	'verbose+' => \$verbose,
+);
+$verbose=1;
+my $session = EPrints::Session->new( 1 , $ARGV[0] );
+exit( 1 ) unless defined $session;
+
+my $global_variable_for_storing_the_host_because_i_cannot_work_out_how_to_pass_it_through_to_the_ldap_callback;
+
+process_search($session, "ldaps://nlbldap-pprd.devdomain.soton.ac.uk", "ou=External,dc=devdomain,dc=soton,dc=ac,dc=uk", "cn=*" );
+process_search($session, "ldaps://nlbldap.soton.ac.uk", "ou=User,dc=soton,dc=ac,dc=uk", "department=Medicine");
+	
+$session->terminate;
+# it's over!
+
+sub process_search
+{
+	my ($session, $ldap_host, $base, $filter) = @_;
+	print "Processing ".$ldap_host ." ".$base." ".$filter."\n" if $verbose;
+
+	$global_variable_for_storing_the_host_because_i_cannot_work_out_how_to_pass_it_through_to_the_ldap_callback = $ldap_host;
+
+	# Connect to server
+	my $ldap = Net::LDAP->new( $ldap_host, version => 3 );
+	die "LDAP connect error: $@\n" unless defined $ldap;
+
+	# Try to bind
+	my $mesg = $ldap->bind; # anonymous bind
+	die "LDAP bind error: " . $mesg->error() . "\n" if $mesg->code();
+
+	# Create paging control
+	my $page = Net::LDAP::Control::Paged->new( size => 100 );
+
+	# Build args for the search
+	my @args = (
+		base => $base,
+		scope => "sub",
+		filter => $filter,
+		callback => \&process_entry,
+		control => [ $page ],
+	);
+
+	# Run the search until we run out of results.
+	# Based on http://search.cpan.org/~gbarr/perl-ldap-0.35/lib/Net/LDAP/Control/Paged.pm
+	my $cookie;
+	while( 1 )
+	{
+		# Perform search
+		my $result = $ldap->search( @args );
+
+		# Only continue on LDAP_SUCCESS
+		$result->code and last;
+
+		# Get cookie from paged control
+		my( $resp ) = $result->control( LDAP_CONTROL_PAGED ) or last;
+		$cookie = $resp->cookie or last;
+
+		# Set cookie in paged control
+		$page->cookie( $cookie );
+	}
+
+	if( $cookie )
+	{
+		# We had an abnormal exit, so let the server know we do not want any more
+		$page->cookie( $cookie );
+		$page->size( 0 );
+		$ldap->search( @args );
+	}
+
+	$ldap->unbind;
+}
+# Process entry
+sub process_entry
+{
+	my( $mesg, $entr ) = @_;
+
+	return unless defined $entr;
+
+	my $username = $entr->get_value( "cn" );
+	my $title = $entr->get_value( "personalTitle" );
+	my $given = $entr->get_value( "givenName" );
+	my $family = $entr->get_value( "sn" );
+	my $email = $entr->get_value( "mail" );
+	my $dn = $entr->get_value( "distinguishedName" );
+	return unless defined $username && defined $email && $dn;
+
+	# mrt - do we want incomplete records?
+	return unless defined $title && defined $given;
+
+	# Dump accounts - uncomment lines below
+	printf "%20s\t%20s\t%20s\t%20s\t%20s\t%20s\n", $username, $title, $given, $family, $email, $dn;
+
+	# Does user account already exist?
+	my $user = EPrints::DataObj::User::user_with_username( $session, $username );
+	if( !defined $user )
+	{
+		$user = EPrints::DataObj::User::create( $session, "user" );
+		$user->set_value( "username", $username );
+		$user->set_value( "login_method", "ldap" );
+		print "CREATING: $username\n" if $verbose;
+	} 
+	else 
+	{
+		print "UPDATING: $username\n" if $verbose;
+	}
+
+	# Set metadata
+	my $name = {
+		family => $family,
+		given => $given,
+		honourific => $title,
+	};
+
+	my $ldap = {
+		host => $global_variable_for_storing_the_host_because_i_cannot_work_out_how_to_pass_it_through_to_the_ldap_callback,
+		distinguished_name => $dn,
+	};
+
+	$user->set_value( "name", $name );
+	$user->set_value( "email", $email );
+	$user->set_value( "ldap", $ldap );
+	$user->commit();
+}

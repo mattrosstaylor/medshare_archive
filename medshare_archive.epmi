@@ -8,9 +8,9 @@
         <file>
           <filename>epm/medshare_archive/cfg/cfg.d/z_medshare.pl</filename>
           <mime_type>text/plain</mime_type>
-          <hash>526e6277990f593b21db9557547fffe3</hash>
+          <hash>c32ce4069d94100878e7ae67232f2ac4</hash>
           <hash_type>MD5</hash_type>
-          <filesize>2089</filesize>
+          <filesize>2456</filesize>
         </file>
         <file>
           <filename>epm/medshare_archive/cfg/cfg.d/z_medshare_eprint_automatic_fields.pl</filename>
@@ -20,11 +20,18 @@
           <filesize>387</filesize>
         </file>
         <file>
+          <filename>epm/medshare_archive/cfg/cfg.d/z_medshare_user_login.pl</filename>
+          <mime_type>text/plain</mime_type>
+          <hash>4d53013c022e39fef250767fe0d09cb8</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>2593</filesize>
+        </file>
+        <file>
           <filename>epm/medshare_archive/cfg/lang/en/phrases/z_medshare.xml</filename>
           <mime_type>application/xml</mime_type>
-          <hash>207a4568207bb966cc1170b65de77489</hash>
+          <hash>310a81787c3226b649b764284dea9094</hash>
           <hash_type>MD5</hash_type>
-          <filesize>9661</filesize>
+          <filesize>10117</filesize>
         </file>
         <file>
           <filename>epm/medshare_archive/cfg/namedsets/medshare_module</filename>
@@ -120,9 +127,9 @@
         <file>
           <filename>plugins/EPrints/Plugin/Screen/EPMC/MedShareArchive.pm</filename>
           <mime_type>inode/symlink</mime_type>
-          <hash>cc941f5dde9db99f6dd926bd73fbfcef</hash>
+          <hash>b9cf6366336014582e5da35242377049</hash>
           <hash_type>MD5</hash_type>
-          <filesize>1812</filesize>
+          <filesize>1848</filesize>
         </file>
       </files>
       <mime_type>inode/symlink</mime_type>

@@ -118,4 +118,12 @@
 	<epp:phrase id="medshare_subject_typename_public_health">Public Health</epp:phrase>
 	<epp:phrase id="medshare_subject_typename_radiology">Radiology</epp:phrase>
 	<epp:phrase id="medshare_subject_typename_sociology_as_applied_to_medicine">Sociology as Applied to Medicine</epp:phrase>
+	<!-- ldap stuff -->
+	<epp:phrase id="user_fieldname_login_method">Login Method</epp:phrase>
+	<epp:phrase id="user_fieldopt_login_method_internal">Internal</epp:phrase>
+	<epp:phrase id="user_fieldopt_login_method_ldap">LDAP</epp:phrase>
+
+	<epp:phrase id="user_fieldname_ldap">LDAP information</epp:phrase>
+	<epp:phrase id="user_fieldname_ldap_host">Host</epp:phrase>
+	<epp:phrase id="user_fieldname_ldap_distinguished_name">Distinguished Name</epp:phrase>
 </epp:phrases>

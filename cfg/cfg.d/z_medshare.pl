@@ -18,44 +18,74 @@ $c->{resourcemanager_filter_fields} = [
 
 $c->{fields}->{eprint} = [@{$c->{fields}->{eprint}}, (
 {
-	'name' => 'course',
-	'type' => 'compound',
-	'required' => 1,
-	'fields' => [
+	name => 'course',
+	type => 'compound',
+	required => 1,
+	fields => [
 		{
-			'sub_name' => 'programme_year',
-			'input_style' => 'medium',
-			'type' => 'namedset',
-			'set_name' => "medshare_programme_year",
-			'required' => 1,
+			sub_name => 'programme_year',
+			input_style => 'medium',
+			type => 'namedset',
+			set_name => "medshare_programme_year",
+			required => 1,
 		},
 		{
-			'sub_name' => 'module',
-			'type' => 'namedset',
-			'set_name' => 'medshare_module',
-			'required' => 1,
+			sub_name => 'module',
+			type => 'namedset',
+			set_name => 'medshare_module',
+			required => 1,
 		}
 	],
 },
 
 {
-	'name' => 'themes',
-	'type' => 'namedset',
-	'set_name' => 'medshare_theme',
-	'multiple' => 1,
-	'input_style' => 'checkbox',
+	name => 'themes',
+	type => 'namedset',
+	set_name => 'medshare_theme',
+	multiple => 1,
+	input_style => 'checkbox',
 },
 
 {
-	'name' => 'subjects',
-	'type' => 'namedset',
-	'set_name' => 'medshare_subject',
-	'multiple' => 1,
-	'input_style' => 'checkbox',
+	name => 'subjects',
+	type => 'namedset',
+	set_name => 'medshare_subject',
+	multiple => 1,
+	input_style => 'checkbox',
 },
 
 )];
 
+# add ldap specific fields
+push @{$c->{fields}->{user}},
+{
+	name => 'login_method',
+	type => 'set',
+	required => '1',
+	options => [
+		'internal',
+		'ldap',
+	],
+	input_style => 'radio',
+	allow_null => 0,
+},
+{
+	name => 'ldap',
+	type => 'compound',
+	fields => [
+		{
+			sub_name => 'host',
+			type => 'text',
+		},
+		{
+			sub_name => 'distinguished_name',
+			type => 'text',
+		},
+	],
+};
+;
+
+$c->{allow_web_signup} = 0;
 
 $c->{search}->{advanced} = 
 {
