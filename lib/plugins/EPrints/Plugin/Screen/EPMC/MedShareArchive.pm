@@ -8,8 +8,7 @@ use File::Copy;
 use strict;
 
 our @replaced_files = (
-	"/workflows/eprint/resource.xml",
-
+	"/workflows/eprint/default.xml",
 );
 
 sub new
