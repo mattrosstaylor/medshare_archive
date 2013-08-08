@@ -8,7 +8,7 @@ document.observe( 'dom:loaded', function() {
 
 	// add the image - this is easier than actually doing it with the component	
 	$$(".medshare_module_select_area_programme_year").each(function(div) {
-		div.insert(new Element("img", {src: "/style/images/medshare_module_select_programme_year.jpg" }));
+		div.insert(new Element("img", {src: "/images/medshare_archive/medshare_module_select_programme_year.jpg" }));
 	});
 
 	// get the ids for each of the components

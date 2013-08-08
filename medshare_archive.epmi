@@ -36,9 +36,9 @@
         <file>
           <filename>epm/medshare_archive/cfg/lang/en/phrases/z_medshare.xml</filename>
           <mime_type>application/xml</mime_type>
-          <hash>310a81787c3226b649b764284dea9094</hash>
+          <hash>9601cca4097094cbe292c7c897538c34</hash>
           <hash_type>MD5</hash_type>
-          <filesize>10117</filesize>
+          <filesize>10114</filesize>
         </file>
         <file>
           <filename>epm/medshare_archive/cfg/namedsets/medshare_module</filename>
@@ -83,6 +83,13 @@
           <filesize>18</filesize>
         </file>
         <file>
+          <filename>epm/medshare_archive/cfg/static/images/medshare_archive/medshare_module_select_programme_year.jpg</filename>
+          <mime_type>image/jpeg</mime_type>
+          <hash>f4ace0a7469aeb49cc20a5e85aad4d9c</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>40061</filesize>
+        </file>
+        <file>
           <filename>epm/medshare_archive/cfg/static/javascript/auto/medshare_modules.js</filename>
           <mime_type>text/plain</mime_type>
           <hash>5c1d4a76fdd636248c48da5101c109da</hash>
@@ -92,9 +99,9 @@
         <file>
           <filename>epm/medshare_archive/cfg/static/javascript/auto/medshare_select_module.js</filename>
           <mime_type>text/plain</mime_type>
-          <hash>17f16e7da6b3f334a29e5960f5eb35ce</hash>
+          <hash>d1a6a7e61215436ce5d9d0b53d107450</hash>
           <hash_type>MD5</hash_type>
-          <filesize>2663</filesize>
+          <filesize>2674</filesize>
         </file>
         <file>
           <filename>epm/medshare_archive/cfg/static/style/auto/medshare.css</filename>
@@ -109,13 +116,6 @@
           <hash>01e55be959be6c077a7b16f07b571e62</hash>
           <hash_type>MD5</hash_type>
           <filesize>651</filesize>
-        </file>
-        <file>
-          <filename>epm/medshare_archive/cfg/static/style/images/medshare_module_select_programme_year.jpg</filename>
-          <mime_type>image/jpeg</mime_type>
-          <hash>f4ace0a7469aeb49cc20a5e85aad4d9c</hash>
-          <hash_type>MD5</hash_type>
-          <filesize>40061</filesize>
         </file>
         <file>
           <filename>epm/medshare_archive/cfg/workflows/eprint/default.xml</filename>
