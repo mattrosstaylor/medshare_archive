@@ -59,12 +59,12 @@
 	<epp:phrase id="medshare_module_typename_research_project">Research Project</epp:phrase>
 	<epp:phrase id="medshare_module_typename_medicine_elderly_care">Medicine &amp; Elderly Care</epp:phrase>
 	<epp:phrase id="medshare_module_typename_primary_medical_care_long_term_conditions">Primary Medical Care &amp; Long Term Conditions</epp:phrase>
-	<epp:phrase id="medshare_module_typename_surgery_orthopaedics">Surgery &amp; Orthopaedicss</epp:phrase>
+	<epp:phrase id="medshare_module_typename_surgery_orthopaedics">Surgery &amp; Orthopaedics</epp:phrase>
 	<epp:phrase id="medshare_module_typename_scientific_basis_of_medicine">Scientific Basis of Medicine</epp:phrase>
 	<epp:phrase id="medshare_module_typename_ssu3">SSU3</epp:phrase>
 	<epp:phrase id="medshare_module_typename_year_3_assessment">Year 3 Assessment</epp:phrase>
 <!-- bm5_y4 -->
-	<epp:phrase id="medshare_module_typename_psychiatry">Psychiactry</epp:phrase>
+	<epp:phrase id="medshare_module_typename_psychiatry">Psychiatry</epp:phrase>
 	<epp:phrase id="medshare_module_typename_acute_care">Acute Care</epp:phrase>
 	<epp:phrase id="medshare_module_typename_speciality_weeks">Speciality Weeks</epp:phrase>
 	<epp:phrase id="medshare_module_typename_obstetrics_gynaecology_gum">Obstetrics &amp; Gynaecology/GUM</epp:phrase>
@@ -109,7 +109,7 @@
 	<epp:phrase id="medshare_subject_typename_human_nutrition">Human Nutrition</epp:phrase>
 	<epp:phrase id="medshare_subject_typename_immunology">Immunology</epp:phrase>
 	<epp:phrase id="medshare_subject_typename_microbiology_and_infection">Microbiology and Infection</epp:phrase>
-	<epp:phrase id="medshare_subject_typename_molecular_cell_biology">Molectular Cell Biology</epp:phrase>
+	<epp:phrase id="medshare_subject_typename_molecular_cell_biology">Molecular Cell Biology</epp:phrase>
 	<epp:phrase id="medshare_subject_typename_oncology">Oncology</epp:phrase>
 	<epp:phrase id="medshare_subject_typename_pathology">Pathology</epp:phrase>
 	<epp:phrase id="medshare_subject_typename_personal_and_professional_development">Personal and Professional Development</epp:phrase>
