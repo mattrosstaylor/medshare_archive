@@ -20,6 +20,7 @@ my $global_variable_for_storing_the_host_because_i_cannot_work_out_how_to_pass_i
 
 process_search($session, "ldaps://nlbldap-pprd.devdomain.soton.ac.uk", "ou=External,dc=devdomain,dc=soton,dc=ac,dc=uk", "cn=*" );
 process_search($session, "ldaps://nlbldap.soton.ac.uk", "ou=User,dc=soton,dc=ac,dc=uk", "department=Medicine");
+process_search($session, "ldaps://nlbldap.soton.ac.uk", "ou=NHS,ou=External,dc=soton,dc=ac,dc=uk", "cn=*");
 	
 $session->terminate;
 # it's over!
