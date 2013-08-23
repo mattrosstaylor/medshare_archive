@@ -85,9 +85,9 @@
         <file>
           <filename>epm/medshare_archive/cfg/static/images/medshare_archive/medshare_module_select_programme_year.jpg</filename>
           <mime_type>image/jpeg</mime_type>
-          <hash>f4ace0a7469aeb49cc20a5e85aad4d9c</hash>
+          <hash>2d3d87b2c37860ade685e5b6cb4dcb0d</hash>
           <hash_type>MD5</hash_type>
-          <filesize>40061</filesize>
+          <filesize>9059</filesize>
         </file>
         <file>
           <filename>epm/medshare_archive/cfg/static/javascript/auto/medshare_modules.js</filename>
@@ -113,7 +113,7 @@
         <file>
           <filename>epm/medshare_archive/cfg/static/style/auto/medshare_module_select.css</filename>
           <mime_type>text/plain</mime_type>
-          <hash>01e55be959be6c077a7b16f07b571e62</hash>
+          <hash>e508ff74688ad2a1a2faad9161603577</hash>
           <hash_type>MD5</hash_type>
           <filesize>651</filesize>
         </file>
