@@ -35,6 +35,12 @@
 	<epp:phrase id="medshare_year_typename_y3">Y3</epp:phrase>
 	<epp:phrase id="medshare_year_typename_y4">Y4</epp:phrase>
 	<epp:phrase id="medshare_year_typename_y5">Y5</epp:phrase>
+
+	<!-- views -->
+	<epp:phrase id="viewname_eprint_programme_year">Programme &amp; Year</epp:phrase>
+	<epp:phrase id="viewname_eprint_module">Module</epp:phrase>
+	<epp:phrase id="viewname_eprint_subjects">Subjects</epp:phrase>
+	<epp:phrase id="viewname_eprint_themes">Themes</epp:phrase>
 	
 	<!-- medshare_module -->
 <!-- bm6_y0 -->

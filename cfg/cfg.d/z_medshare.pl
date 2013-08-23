@@ -30,12 +30,14 @@ $c->{fields}->{eprint} = [@{$c->{fields}->{eprint}}, (
 			type => 'namedset',
 			set_name => "medshare_programme_year",
 			required => 1,
+			browse_link => 'programme_year',
 		},
 		{
 			sub_name => 'module',
 			type => 'namedset',
 			set_name => 'medshare_module',
 			required => 1,
+			browse_link => 'module',
 		}
 	],
 },
@@ -46,6 +48,7 @@ $c->{fields}->{eprint} = [@{$c->{fields}->{eprint}}, (
 	set_name => 'medshare_theme',
 	multiple => 1,
 	input_style => 'checkbox',
+	'browse_link' => 'themes',
 },
 
 {
@@ -54,6 +57,7 @@ $c->{fields}->{eprint} = [@{$c->{fields}->{eprint}}, (
 	set_name => 'medshare_subject',
 	multiple => 1,
 	input_style => 'checkbox',
+	'browse_link' => 'subjects',
 },
 
 )];

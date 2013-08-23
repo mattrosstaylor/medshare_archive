@@ -8,9 +8,9 @@
         <file>
           <filename>epm/medshare_archive/cfg/cfg.d/z_medshare.pl</filename>
           <mime_type>text/plain</mime_type>
-          <hash>190f1edbdab7e7a66d1188ed77c727d8</hash>
+          <hash>58b4e4ce30a05f17d40709b7f65b64d4</hash>
           <hash_type>MD5</hash_type>
-          <filesize>1541</filesize>
+          <filesize>1663</filesize>
         </file>
         <file>
           <filename>epm/medshare_archive/cfg/cfg.d/z_medshare_eprint_automatic_fields.pl</filename>
@@ -34,11 +34,25 @@
           <filesize>2593</filesize>
         </file>
         <file>
+          <filename>epm/medshare_archive/cfg/cfg.d/z_medshare_views.pl</filename>
+          <mime_type>text/plain</mime_type>
+          <hash>a5ab508dca3bc34b53132c99c1c93c81</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>1173</filesize>
+        </file>
+        <file>
+          <filename>epm/medshare_archive/cfg/citations/eprint/result.xml</filename>
+          <mime_type>application/xml</mime_type>
+          <hash>c4f56a2232613ace645902ac6a9d7344</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>1493</filesize>
+        </file>
+        <file>
           <filename>epm/medshare_archive/cfg/lang/en/phrases/z_medshare.xml</filename>
           <mime_type>application/xml</mime_type>
-          <hash>9601cca4097094cbe292c7c897538c34</hash>
+          <hash>a80f668ef00cc9e67c7b5fe16d8502a1</hash>
           <hash_type>MD5</hash_type>
-          <filesize>10114</filesize>
+          <filesize>10401</filesize>
         </file>
         <file>
           <filename>epm/medshare_archive/cfg/namedsets/medshare_module</filename>
@@ -134,9 +148,9 @@
         <file>
           <filename>plugins/EPrints/Plugin/Screen/EPMC/MedShareArchive.pm</filename>
           <mime_type>inode/symlink</mime_type>
-          <hash>818b9a76324b8f2892b09f31536c0c94</hash>
+          <hash>6bebc63e3e3d55d507083d54a17eedb5</hash>
           <hash_type>MD5</hash_type>
-          <filesize>1846</filesize>
+          <filesize>1879</filesize>
         </file>
       </files>
       <mime_type>inode/symlink</mime_type>
