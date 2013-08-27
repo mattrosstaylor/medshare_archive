@@ -50,9 +50,9 @@
         <file>
           <filename>epm/medshare_archive/cfg/lang/en/phrases/z_medshare.xml</filename>
           <mime_type>application/xml</mime_type>
-          <hash>a80f668ef00cc9e67c7b5fe16d8502a1</hash>
+          <hash>4385b83545e956b4aa27c79fff910fe5</hash>
           <hash_type>MD5</hash_type>
-          <filesize>10401</filesize>
+          <filesize>11034</filesize>
         </file>
         <file>
           <filename>epm/medshare_archive/cfg/namedsets/medshare_module</filename>
