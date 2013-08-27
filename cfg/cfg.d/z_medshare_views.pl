@@ -9,13 +9,13 @@ $c->{browse_views} = [@{$c->{browse_views}}, (
 		new_column_at => [10,10],
 	}
 	],
-	order => "creators_name/title",
+	order => "title",
 	citation => "result",
-	variations => [
-		"creators_name;first_letter",
+#	variations => [
+#		"creators_name;first_letter",
 #		"type",
-		"DEFAULT"
-	],
+#		"DEFAULT"
+#	],
 },
 {
 	id => "module",
@@ -27,13 +27,13 @@ $c->{browse_views} = [@{$c->{browse_views}}, (
 		new_column_at => [10,10],
 	}
 	],
-	order => "creators_name/title",
+	order => "title",
 	citation => "result",
-	variations => [
-		"creators_name;first_letter",
+#	variations => [
+#		"creators_name;first_letter",
 #		"type",
-		"DEFAULT"
-	],
+#		"DEFAULT"
+#	],
 },
 
 {
@@ -46,13 +46,13 @@ $c->{browse_views} = [@{$c->{browse_views}}, (
 		new_column_at => [10,10],
 	}
 	],
-	order => "creators_name/title",
+	order => "title",
 	citation => "result",
-	variations => [
-		"creators_name;first_letter",
+#	variations => [
+#		"creators_name;first_letter",
 #		"type",
-		"DEFAULT"
-	],
+#		"DEFAULT"
+#	],
 },
 
 
@@ -66,13 +66,13 @@ $c->{browse_views} = [@{$c->{browse_views}}, (
 		new_column_at => [10,10],
 	}
 	],
-	order => "creators_name/title",
+	order => "title",
 	citation => "result",
-	variations => [
-		"creators_name;first_letter",
+#	variations => [
+#		"creators_name;first_letter",
 #		"type",
-		"DEFAULT"
-	],
+#		"DEFAULT"
+#	],
 },
 
 )];
