@@ -95,3 +95,13 @@ $c->{allow_web_signup} = 0;
 
 $c->{plugins}->{"InputForm::Component::Field::MedShareModuleSelect"}->{params}->{disable} = 0;
 $c->{plugins}->{"MedShareUtils"}->{params}->{disable} = 0;
+
+# temporarily disable profile 
+$c->{user_roles}->{user} = [qw{
+	general
+	deposit
+	+eprint/archive/edit
+	+eprint/archive/remove
+}];
+
+$c->{plugins}->{"Screen::User::View"}->{appears}->{key_tools} = undef;

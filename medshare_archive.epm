@@ -8,9 +8,9 @@
         <file>
           <filename>epm/medshare_archive/cfg/cfg.d/z_medshare.pl</filename>
           <mime_type>text/plain</mime_type>
-          <hash>58b4e4ce30a05f17d40709b7f65b64d4</hash>
+          <hash>b25baa3202e6532636950a555556df42</hash>
           <hash_type>MD5</hash_type>
-          <filesize>1663</filesize>
+          <filesize>1867</filesize>
           <data encoding='base64'>JGMtPntzdW1tYXJ5X3BhZ2VfbWV0YWRhdGF9ID0gW3F3LwoJdXNlcmlkCglkYXRlc3RhbXAKCWNy
 ZWF0b3JzCgljb3Vyc2VfcHJvZ3JhbW1lX3llYXIKCWNvdXJzZV9tb2R1bGUKCXRoZW1lcwoJc3Vi
 amVjdHMKCWtleXdvcmRzCglsaWNlbnNlCi9dOwoKIyBtcnQgLSB3ZWxsLCB0aGlzIGlzIHRvdGFs
@@ -40,7 +40,10 @@ ZGlzdGluZ3Vpc2hlZF9uYW1lJywKCQkJdHlwZSA9PiAndGV4dCcsCgkJfSwKCV0sCn07CjsKCiRj
 LT57YWxsb3dfd2ViX3NpZ251cH0gPSAwOwoKJGMtPntwbHVnaW5zfS0+eyJJbnB1dEZvcm06OkNv
 bXBvbmVudDo6RmllbGQ6Ok1lZFNoYXJlTW9kdWxlU2VsZWN0In0tPntwYXJhbXN9LT57ZGlzYWJs
 ZX0gPSAwOwokYy0+e3BsdWdpbnN9LT57Ik1lZFNoYXJlVXRpbHMifS0+e3BhcmFtc30tPntkaXNh
-YmxlfSA9IDA7Cg==
+YmxlfSA9IDA7CgojIHRlbXBvcmFyaWx5IGRpc2FibGUgcHJvZmlsZSAKJGMtPnt1c2VyX3JvbGVz
+fS0+e3VzZXJ9ID0gW3F3ewoJZ2VuZXJhbAoJZGVwb3NpdAoJK2VwcmludC9hcmNoaXZlL2VkaXQK
+CStlcHJpbnQvYXJjaGl2ZS9yZW1vdmUKfV07CgokYy0+e3BsdWdpbnN9LT57IlNjcmVlbjo6VXNl
+cjo6VmlldyJ9LT57YXBwZWFyc30tPntrZXlfdG9vbHN9ID0gdW5kZWY7Cg==
 </data>
         </file>
         <file>
