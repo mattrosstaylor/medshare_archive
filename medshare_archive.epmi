@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
-<epm xmlns='http://eprints.org/ep2/data/2.0' id='http://www.medshare.soton.ac.uk/id/epm/medshare_archive'>
+<epm xmlns='http://eprints.org/ep2/data/2.0' id='http://lslvm-mrt5.ecs.soton.ac.uk/id/epm/medshare_archive'>
   <epmid>medshare_archive</epmid>
-  <uri>http://www.medshare.soton.ac.uk/id/epm/medshare_archive</uri>
+  <uri>http://lslvm-mrt5.ecs.soton.ac.uk/id/epm/medshare_archive</uri>
   <documents>
     <document>
       <files>
@@ -127,9 +127,9 @@
         <file>
           <filename>epm/medshare_archive/cfg/static/style/auto/medshare_module_select.css</filename>
           <mime_type>text/plain</mime_type>
-          <hash>e508ff74688ad2a1a2faad9161603577</hash>
+          <hash>b84e7d32153a78797b859d122e036ebf</hash>
           <hash_type>MD5</hash_type>
-          <filesize>651</filesize>
+          <filesize>653</filesize>
         </file>
         <file>
           <filename>epm/medshare_archive/cfg/workflows/eprint/default.xml</filename>
