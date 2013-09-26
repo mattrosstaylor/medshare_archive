@@ -43,9 +43,9 @@
         <file>
           <filename>epm/medshare_archive/cfg/citations/eprint/result.xml</filename>
           <mime_type>application/xml</mime_type>
-          <hash>cea638939cfc2a315e4f7d1104b6a177</hash>
+          <hash>868402a770fb9075d83216975301279d</hash>
           <hash_type>MD5</hash_type>
-          <filesize>1680</filesize>
+          <filesize>1683</filesize>
         </file>
         <file>
           <filename>epm/medshare_archive/cfg/lang/en/phrases/z_medshare.xml</filename>
