@@ -91,13 +91,12 @@
 	<epp:phrase id="medshare_module_typename_child_health">Child Health</epp:phrase>
 	<epp:phrase id="medshare_module_typename_scientific_basis_of_clinical_practice">Scientific Basis Of Clinical Practice</epp:phrase>
 	<epp:phrase id="medshare_module_typename_clinical_ethics_law">Clinical Ethics &amp; Law</epp:phrase>
-	<epp:phrase id="medshare_module_typename_personal_professional_development_1">Personal Professional Development 1</epp:phrase>
 	<epp:phrase id="medshare_module_typename_year_4_assessment">Year 4 Assessment</epp:phrase>
 <!-- bm5_y5 -->
 	<epp:phrase id="medshare_module_typename_surgery">Surgery</epp:phrase>
 	<epp:phrase id="medshare_module_typename_primary_medical_care">Primary Medical Care</epp:phrase>
 	<epp:phrase id="medshare_module_typename_medicine">Medicine</epp:phrase>
-	<epp:phrase id="medshare_module_typename_personal_professional_development_2">Personal Professional Development 2</epp:phrase>
+	<epp:phrase id="medshare_module_typename_personal_professional_development">Personal Professional Development</epp:phrase>
 	<epp:phrase id="medshare_module_typename_ssu4">SSU4</epp:phrase>
 	<epp:phrase id="medshare_module_typename_assistantship">Assistantship</epp:phrase>
 	<epp:phrase id="medshare_module_typename_elective">Elective</epp:phrase>

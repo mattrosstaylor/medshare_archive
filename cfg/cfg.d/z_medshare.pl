@@ -100,8 +100,8 @@ $c->{plugins}->{"MedShareUtils"}->{params}->{disable} = 0;
 $c->{user_roles}->{user} = [qw{
 	general
 	deposit
-	+eprint/archive/edit
-	+eprint/archive/remove
+	+eprint/archive/edit:owner
+	+eprint/archive/remove:owner
 }];
 
 $c->{plugins}->{"Screen::User::View"}->{appears}->{key_tools} = undef;

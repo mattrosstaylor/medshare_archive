@@ -37,14 +37,13 @@ var medshare_programme_year_to_modules = {
 		'child_health',
 		'scientific_basis_of_clinical_practice',
 		'clinical_ethics_law',
-		'personal_professional_development_1',
 		'year_4_assessment'
 	],
 	'bm5_y5': [
 		'surgery',
 		'primary_medical_care',
 		'medicine',
-		'personal_professional_development_2',
+		'personal_professional_development',
 		'ssu4',
 		'assistantship',
 		'elective',
