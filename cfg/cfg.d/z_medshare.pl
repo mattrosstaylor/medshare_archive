@@ -103,5 +103,11 @@ $c->{user_roles}->{user} = [qw{
 	+eprint/archive/edit:owner
 	+eprint/archive/remove:owner
 }];
+$c->{user_roles}->{editor} = [qw{
+	general
+	deposit
+	editor
+	+redo_thumbnails
+}];
 
 $c->{plugins}->{"Screen::User::View"}->{appears}->{key_tools} = undef;
