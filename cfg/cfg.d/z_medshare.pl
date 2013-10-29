@@ -15,7 +15,6 @@ $c->{resourcemanager_filter_fields} = [
 	'keywords',
 	'course_programme_year',
 	'view_permissions_type',
-	'validation_status',
 ];
 
 $c->{fields}->{eprint} = [@{$c->{fields}->{eprint}}, (
@@ -107,6 +106,8 @@ $c->{user_roles}->{editor} = [qw{
 	general
 	deposit
 	editor
+	staff-view
+	+eprint/archive/summary
 	+redo_thumbnails
 }];
 
