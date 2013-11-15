@@ -14,7 +14,6 @@
                 </ul>
 	</epp:phrase>
 
-
 	<epp:phrase id="eprint_fieldname_course">Programme, Year &amp; Module </epp:phrase>
 	<epp:phrase id="eprint_fieldhelp_course">What programme and module is this resource part of?</epp:phrase>
 	<epp:phrase id="eprint_fieldname_course_programme_year">Programme &amp; Year</epp:phrase>
@@ -142,7 +141,16 @@
 	<epp:phrase id="user_fieldopt_login_method_internal">Internal</epp:phrase>
 	<epp:phrase id="user_fieldopt_login_method_ldap">LDAP</epp:phrase>
 
-	<epp:phrase id="user_fieldname_ldap">LDAP information</epp:phrase>
-	<epp:phrase id="user_fieldname_ldap_host">Host</epp:phrase>
-	<epp:phrase id="user_fieldname_ldap_distinguished_name">Distinguished Name</epp:phrase>
+	<epp:phrase id="user_fieldname_ldap_distinguished_name">LDAP Distinguished Name</epp:phrase>
+
+	<epp:phrase id="user_fieldname_whitelist_status">Whitelist Status</epp:phrase>
+	<epp:phrase id="user_fieldopt_whitelist_status_allowed">Allowed</epp:phrase>
+	<epp:phrase id="user_fieldopt_whitelist_status_denied">Denied</epp:phrase>
+	<epp:phrase id="user_fieldopt_whitelist_status_exempt">Exempt (always allowed)</epp:phrase>
+
+	<!-- generic phrase replacements -->
+
+	<epp:phrase id="Plugin/Screen/EPrint/Remove:sure_delete"><p>Are you absolutely sure you want to permenently delete this resource?</p><p><strong>If you wish to simply replace the contents of this resource and maintain links with Blackboard, cancel this and go to 'Edit Resource' instead.</strong></p></epp:phrase>
+
+
 </epp:phrases>

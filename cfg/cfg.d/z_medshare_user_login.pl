@@ -16,6 +16,13 @@ $c->{check_user_password} = sub {
 	my $user = EPrints::DataObj::User::user_with_username( $session, $username );
 	return unless $user;
 
+	my $whitelist_status = $user->value( 'whitelist_status' );
+
+	if ( $whitelist_status eq 'denied' )
+	{
+		return;
+	}
+
 	my $login_method = $user->value( 'login_method' );
 	if( $login_method eq 'internal' )
 	{
@@ -24,7 +31,7 @@ $c->{check_user_password} = sub {
 	}
 	elsif ( $login_method eq 'ldap' )
 	{
-		my $ldap_host = $user->value( 'ldap_host' );
+		my $ldap_host = "ldaps://nlbldap.soton.ac.uk";
 		my $ldap_dn = $user->value( 'ldap_distinguished_name' );
 
 		use Net::LDAP; 
@@ -40,7 +47,6 @@ $c->{check_user_password} = sub {
 		my $mesg = $ldap->bind( $ldap_dn, password => $password );
 		if( $mesg->code() )
 		{
-			print STDERR "\nIAMHERE\t".$mesg->code()."\n";
 			return;
 		}
 		return $username;

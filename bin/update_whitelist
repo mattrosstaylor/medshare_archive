@@ -1,0 +1,159 @@
+#!/usr/bin/perl -w -I/opt/eprints3/perl_lib
+
+# EPrints Services LDAP user import
+use EPrints;
+use Getopt::Long;
+use Net::LDAP;
+use Net::LDAP::Entry;
+use strict;
+
+use Data::Dumper;
+
+my $verbose = 0;
+GetOptions( 
+	'verbose+' => \$verbose,
+);
+$verbose=1;
+my $session = EPrints::Session->new( 1 , $ARGV[0] );
+exit( 1 ) unless defined $session;
+
+my $samba_path = "/srv/samba/live";
+my $ldap_host = "ldaps://nlbldap.soton.ac.uk";
+
+my $ldap = Net::LDAP->new( $ldap_host, version => 3 ) or die $!;
+
+my $mesg = $ldap->bind; # anonymous bind
+die "LDAP bind error: " . $mesg->error() . "\n" if $mesg->code();
+
+my $whitelist_file = find_latest_csv($samba_path);
+open(FILE, $samba_path."/".$whitelist_file) or die $!;
+
+my $whitelist = {};
+
+my $skip_first_line = 0;
+foreach my $line (<FILE>)
+{
+	$skip_first_line++ or next;
+	$line =~ s/\R//g; # <3 Windows
+	my @tokens = split(/\|/, $line);
+	$whitelist->{$tokens[0]} = { 'l' => $tokens[1], 'f' => $tokens[2], 'd' => $tokens[3] };
+}
+
+# get current list of whitelisted users
+my $ds = $session->get_dataset( 'user' );
+my $search = EPrints::Search->new(
+	dataset => $ds,
+	session => $session,
+);
+
+$search->add_field( $ds->get_field("login_method"), 'ldap');
+# maybe add something to filter out unknowns...
+
+my $list = $search->perform_search;
+
+$list->map( sub {
+	my( $session, $dataset, $user, $info ) = @_;
+	my $username =  $user->value( "username" );
+
+	update_user_from_ldap( $user, $ldap );
+
+	if ( $user->value( 'whitelist_status' ) eq 'exempt' )
+	{
+		print "EXEMPT ".$username."\n";
+	}
+	else
+	{
+		if ( exists $whitelist->{$username} )
+		{
+			$user->set_value( "whitelist_status", "allowed" );
+			print "WHITE ".$username."\n";
+			delete $whitelist->{$username};
+		}
+		else
+		{
+			$user->set_value( "whitelist_status", "denied" );
+			print "BLACK ".$username."\n";
+		}
+	}
+	$user->commit();
+});
+$list->dispose;
+
+foreach my $username (keys $whitelist)
+{
+	my $user = EPrints::DataObj::User::create( $session, "user" );
+	$user->set_value( "username", $username );
+	$user->set_value( "login_method", "ldap" );
+	$user->set_value( "whitelist_status", "allowed" );
+	update_user_from_ldap( $user, $ldap );
+	$user->commit();
+	print "CREATE ".$username."\n";
+}
+
+$session->terminate;
+# it's over!
+
+sub find_latest_csv
+{
+	my ($path) = @_;
+
+	opendir(DIR, $path) or die $!;
+	my @files = grep { /^UserAccounts_[0-9]{12}\.csv/ } readdir(DIR);
+	my @sorted = sort {$b cmp $a} @files;
+	closedir(DIR);
+	return $sorted[0];
+}
+
+
+# Process entry
+sub update_user_from_ldap
+{
+	my( $user, $ldap ) = @_;
+
+	my $username = $user->value( "username" );
+	my $result = $ldap->search(
+		base => "ou=User,dc=soton,dc=ac,dc=uk",
+		scope => 'sub',
+		filter =>"cn=$username",
+		attrs => [
+			'cn',
+			'personalTitle',
+			'givenName',
+			'sn',
+			'mail',
+			'distinguishedName',
+		]
+	);
+
+	my $entr = $result->entry(0);
+
+	if ( not defined $entr )
+	{
+		$user->set_value( "ldap_distinguished_name", "unknown" );
+		return;
+	}
+
+	my $title = $entr->get_value( "personalTitle" );
+	my $given = $entr->get_value( "givenName" );
+	my $family = $entr->get_value( "sn" );
+	my $email = $entr->get_value( "mail" );
+	my $dn = $entr->get_value( "distinguishedName" );
+	return unless defined $username && defined $email && $dn;
+
+	# mrt - do we want incomplete records?
+	return unless defined $title && defined $given;
+
+	# Dump accounts - uncomment lines below
+#	printf "%20s\t%20s\t%20s\t%20s\t%20s\t%20s\n", $username, $title, $given, $family, $email, $dn;
+
+	# Set metadata
+	my $name = {
+		family => $family,
+		given => $given,
+		honourific => $title,
+	};
+
+	$user->set_value( "name", $name );
+	$user->set_value( "email", $email );
+	$user->set_value( "ldap_distinguished_name", $dn );
+}

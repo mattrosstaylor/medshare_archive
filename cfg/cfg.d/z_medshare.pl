@@ -75,19 +75,21 @@ push @{$c->{fields}->{user}},
 	allow_null => 0,
 },
 {
-	name => 'ldap',
-	type => 'compound',
-	fields => [
-		{
-			sub_name => 'host',
-			type => 'text',
-		},
-		{
-			sub_name => 'distinguished_name',
-			type => 'text',
-		},
+	name => 'ldap_distinguished_name',
+	type => 'text',
+},
+{
+	name => 'whitelist_status',
+	type => 'set',
+	required => '1',
+	options => [
+		'allowed',
+		'denied',
+		'exempt',
 	],
-};
+	input_style => 'radio',
+	allow_null => 0,
+}
 ;
 
 $c->{allow_web_signup} = 0;
@@ -107,6 +109,8 @@ $c->{user_roles}->{editor} = [qw{
 	deposit
 	editor
 	staff-view
+	+eprint/inbox/remove
+	+eprint/archive/remove
 	+eprint/archive/summary
 	+redo_thumbnails
 }];
