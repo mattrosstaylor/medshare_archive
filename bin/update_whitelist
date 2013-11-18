@@ -112,7 +112,7 @@ sub update_user_from_ldap
 
 	my $username = $user->value( "username" );
 	my $result = $ldap->search(
-		base => "ou=User,dc=soton,dc=ac,dc=uk",
+		base => "dc=soton,dc=ac,dc=uk",
 		scope => 'sub',
 		filter =>"cn=$username",
 		attrs => [
