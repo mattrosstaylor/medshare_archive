@@ -9,7 +9,6 @@ $c->{search}->{simple} =
 				"abstract",
 				"creators_name",
 				"keywords",
-				"advice",
 			]
 		},
 	],
@@ -18,12 +17,12 @@ $c->{search}->{simple} =
 	citation => "result",
 	page_size => 20,
 	order_methods => {
-		"byyear" 	 => "-datestamp/creators_name/title",
-		"byyearoldest"	 => "datestamp/creators_name/title",
-		"byname"  	 => "creators_name/-datestamp/title",
-		"bytitle" 	 => "title/creators_name/-datestamp"
+		"byyear" 	 => "-lastmod/creators_name/title",
+		"byyearoldest"	 => "lastmod/creators_name/title",
+		"byname"  	 => "creators_name/-lastmod/title",
+		"bytitle" 	 => "title/creators_name/-lastmod"
 	},
-	default_order => "byyear",
+	default_order => "byrelevance",
 	show_zero_results => 1,
 };
 
@@ -46,10 +45,10 @@ $c->{search}->{advanced} =
 	citation => "result",
 	page_size => 20,
 	order_methods => {
-		"byyear" 	 => "-datestamp/creators_name/title",
-		"byyearoldest"	 => "datestamp/creators_name/title",
-		"byname"  	 => "creators_name/-datestamp/title",
-		"bytitle" 	 => "title/creators_name/-datestamp"
+		"byyear" 	 => "-lastmod/creators_name/title",
+		"byyearoldest"	 => "lastmod/creators_name/title",
+		"byname"  	 => "creators_name/-lastmod/title",
+		"bytitle" 	 => "title/creators_name/-lastmod"
 	},
 	default_order => "byyear",
 	show_zero_results => 1,
@@ -70,10 +69,10 @@ $c->{datasets}->{eprint}->{search}->{staff} =
 	citation => "result",
 	page_size => 20,
 	order_methods => {
-		"byyear" 	 => "-date/creators_name/title",
-		"byyearoldest"	 => "date/creators_name/title",
-		"byname"  	 => "creators_name/-date/title",
-		"bytitle" 	 => "title/creators_name/-date"
+		"byyear" 	 => "-lastmod/creators_name/title",
+		"byyearoldest"	 => "lastmod/creators_name/title",
+		"byname"  	 => "creators_name/-lastmod/title",
+		"bytitle" 	 => "title/creators_name/-lastmod"
 	},
 	default_order => "byyear",
 	show_zero_results => 1,
