@@ -65,13 +65,13 @@ $list->map( sub {
 	{
 		if ( exists $whitelist->{$username} )
 		{
-			$user->set_value( "whitelist_status", "allowed" );
+			$user->set_value( "whitelist_status", "white" );
 			print "WHITE ".$username."\n";
 			delete $whitelist->{$username};
 		}
 		else
 		{
-			$user->set_value( "whitelist_status", "denied" );
+			$user->set_value( "whitelist_status", "black" );
 			print "BLACK ".$username."\n";
 		}
 	}
@@ -112,7 +112,7 @@ sub update_user_from_ldap
 
 	my $username = $user->value( "username" );
 	my $result = $ldap->search(
-		base => "ou=User,dc=soton,dc=ac,dc=uk",
+		base => "dc=soton,dc=ac,dc=uk",
 		scope => 'sub',
 		filter =>"cn=$username",
 		attrs => [
