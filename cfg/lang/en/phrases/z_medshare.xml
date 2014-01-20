@@ -144,8 +144,8 @@
 	<epp:phrase id="user_fieldname_ldap_distinguished_name">LDAP Distinguished Name</epp:phrase>
 
 	<epp:phrase id="user_fieldname_whitelist_status">Whitelist Status</epp:phrase>
-	<epp:phrase id="user_fieldopt_whitelist_status_white">White</epp:phrase>
-	<epp:phrase id="user_fieldopt_whitelist_status_black">Black</epp:phrase>
+	<epp:phrase id="user_fieldopt_whitelist_status_permitted">Permitted</epp:phrase>
+	<epp:phrase id="user_fieldopt_whitelist_status_blocked">Blocked</epp:phrase>
 	<epp:phrase id="user_fieldopt_whitelist_status_exempt">Exempt</epp:phrase>
 
 	<!-- generic phrase replacements -->

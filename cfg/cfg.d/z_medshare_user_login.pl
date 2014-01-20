@@ -18,9 +18,9 @@ $c->{check_user_password} = sub {
 
 	my $whitelist_status = $user->value( 'whitelist_status' );
 
-	if ( $whitelist_status eq 'black' )
+	if ( $whitelist_status eq 'blocked' )
 	{
-		return;
+#		return;
 	}
 
 	my $login_method = $user->value( 'login_method' );

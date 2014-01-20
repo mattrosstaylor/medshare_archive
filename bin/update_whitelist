@@ -65,14 +65,14 @@ $list->map( sub {
 	{
 		if ( exists $whitelist->{$username} )
 		{
-			$user->set_value( "whitelist_status", "white" );
-			print "WHITE ".$username."\n";
+			$user->set_value( "whitelist_status", "permitted" );
+			print "PERMIT ".$username."\n";
 			delete $whitelist->{$username};
 		}
 		else
 		{
-			$user->set_value( "whitelist_status", "black" );
-			print "BLACK ".$username."\n";
+			$user->set_value( "whitelist_status", "blocked" );
+			print "BLOCK  ".$username."\n";
 		}
 	}
 	$user->commit();
@@ -84,7 +84,7 @@ foreach my $username (keys $whitelist)
 	my $user = EPrints::DataObj::User::create( $session, "user" );
 	$user->set_value( "username", $username );
 	$user->set_value( "login_method", "ldap" );
-	$user->set_value( "whitelist_status", "allowed" );
+	$user->set_value( "whitelist_status", "permitted" );
 	update_user_from_ldap( $user, $ldap );
 	$user->commit();
 	print "CREATE ".$username."\n";
@@ -138,10 +138,10 @@ sub update_user_from_ldap
 	my $family = $entr->get_value( "sn" );
 	my $email = $entr->get_value( "mail" );
 	my $dn = $entr->get_value( "distinguishedName" );
-	return unless defined $username && defined $email && $dn;
+#	return unless defined $username && defined $email && defined $dn;
 
 	# mrt - do we want incomplete records?
-	return unless defined $title && defined $given;
+#	return unless defined $title && defined $given;
 
 	# Dump accounts - uncomment lines below
 #	printf "%20s\t%20s\t%20s\t%20s\t%20s\t%20s\n", $username, $title, $given, $family, $email, $dn;
