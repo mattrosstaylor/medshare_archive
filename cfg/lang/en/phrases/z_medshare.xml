@@ -151,6 +151,8 @@
 	<!-- generic phrase replacements -->
 
 	<epp:phrase id="Plugin/Screen/EPrint/Remove:sure_delete"><p>Are you absolutely sure you want to permenently delete this resource?</p><p><strong>If you wish to simply replace the contents of this resource and maintain links with Blackboard, cancel this and go to 'Edit Resource' instead.</strong></p></epp:phrase>
+	<epp:phrase id="licenses_typename_uni_soton">Copyright: University of Southampton</epp:phrase>
 
+	<epp:phrase id="Plugin/TagLiteSuggestionList/StaticTags:raw_keywords_legend">Choose from keywords recommended by the Faculty of Medicine:</epp:phrase>
 
 </epp:phrases>

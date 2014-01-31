@@ -1,0 +1,78 @@
+#!/usr/bin/perl
+use EPrints;
+use strict;
+
+my $session = EPrints::Session->new();
+
+my $js_var_name = $session->param( "jsvar" );
+my $fieldname = $session->param( "fieldname" );
+
+my @list = (
+"Acute Care",
+"Allergy",
+"Anaesthetics",
+"Assessment",
+"Assistantship",
+"Cardiology",
+"Child Health (Paediatrics)",
+"CPR",
+"Dermatology",
+"Diabetes",
+"Elective",
+"Endocrinology (Endocrine)",
+"Gastrointestinal (GI)",
+"Genito-Urinary Medicine (GU/GUM)",
+"Head and Neck (ENT)",
+"History and Philosophy of Medicine",
+"Human Functions and Structures",
+"Information and Computing (IT)",
+"Long Term Conditions",
+"Medicine",
+"Medicine in Practice (MIP)",
+"Medicine and Elderly Care",
+"Multiprofessional Learning (MPL)",
+"Nervous and Locomotor",
+"Neurology",
+"Obstetrics and Gynaecology (O&G/Obs and Gynae)",
+"Occupational  Medicine",
+"Ophthalmology",
+"Orthopaedics",
+"Pain",
+"Palliative Medicine (Palliative Care)",
+"Primary Medical Care (PMC)",
+"Professional Practices",
+"Psychiatry (Mental Health)",
+"Rehabilitation Medicine (Rehab Medicine)",
+"Renal",
+"Respiratory",
+"Rheumatology",
+"Research Methods",
+"Research Project",
+"Scientific Basis of Medicine (SBOM)",
+"Student Selected Unit (SSU)",
+"Surgery",
+"Urology"
+);
+
+my $frag = $session->make_doc_fragment;
+
+my $number_of_table_columns = 4;
+my $plugin;
+my $header;
+
+$plugin = $session->plugin( "TagLiteSuggestionList::MostPopularUserTags", fieldname=>$fieldname );
+$header = $session->make_element("h2");
+$header->appendChild( $session->html_phrase( "Plugin/TagLiteSuggestionList/MostPopularUserTags:".$fieldname."_legend" ) );
+$frag->appendChild( $header );
+$frag->appendChild( $plugin->render_suggestion_table( 4, $js_var_name));
+
+$plugin = $session->plugin( "TagLiteSuggestionList::StaticTags", fieldname=>$fieldname, list=>\@list );
+$header = $session->make_element("h2");
+$header->appendChild( $session->html_phrase( "Plugin/TagLiteSuggestionList/StaticTags:".$fieldname."_legend" ) );
+$frag->appendChild( $header );
+$frag->appendChild( $plugin->render_suggestion_table( 4, $js_var_name));
+
+$session->send_http_header( content_type=>"text/html; charset=ISO-8859-1" );
+print EPrints::XML::to_string($frag);
+
+$session->terminate;
