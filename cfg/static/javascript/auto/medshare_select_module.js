@@ -46,6 +46,11 @@ document.observe( 'dom:loaded', function() {
 		$(mmsModuleId).disable();
 		$(mmsModuleId).insert(new Element('option').update('Select a programme/year to view modules'));
 	}
+	// check for non-specific modules
+	else if (medshare_programme_year_to_modules[selectedProgrammeYear].length == 0) {
+		$(mmsModuleId).disable();
+		$(mmsModuleId).insert(new Element('option').update('This programme has no specific modules'));
+	}
 
 	// remove the labels from the input elementss
 	$$(".medshare_module_select_area_programme_year input").each(function(input) {
@@ -56,17 +61,25 @@ document.observe( 'dom:loaded', function() {
 
 // callback for selecting a programme/year
 function mmsSelectProgrammeYear(value) {
-	// enable the module element
-	$(mmsModuleId).enable();
 
 	// remove existing options
 	$(mmsModuleId).select("option").each(function(option){ option.remove() });
 
-	// repopulate from cloned element
-	mmsClonedModuleSelect.select("option").each( function(option) {
-		if (medshare_programme_year_to_modules[value].indexOf(option.value) > -1) {
-			var clonedOption = Element.clone(option, true);
-			$(mmsModuleId).insert(clonedOption);
-		}
-	});
+	if (medshare_programme_year_to_modules[value].length == 0) {
+		$(mmsModuleId).disable();
+		$(mmsModuleId).insert(new Element('option').update('This programme has no specific modules'));
+	}
+	else {
+		// enable the module element
+		$(mmsModuleId).enable();
+
+		// repopulate from cloned element
+		mmsClonedModuleSelect.select("option").each( function(option) {
+			if (medshare_programme_year_to_modules[value].indexOf(option.value) > -1) {
+				var clonedOption = Element.clone(option, true);
+				$(mmsModuleId).insert(clonedOption);
+			}
+		});
+
+	}
 }

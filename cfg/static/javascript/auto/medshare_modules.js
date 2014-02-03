@@ -49,17 +49,8 @@ var medshare_programme_year_to_modules = {
 		'elective',
 		'year_5_assessment'
 	],
-	'bm4_y1': [
-		'foundations_of_medicine_part_1',
-		'integration_of_knowledge_and_clinical_medicine_part_1',
-		'clinical_practice_experience_part_1',
-		'clinical_medicine_part_1'
-	],
-	'bm4_y2': [
-		'foundations_of_medicine_part_2',
-		'integration_of_knowledge_and_clinical_medicine_part_2',
-		'clinical_practice_experience_part_2',
-		'clinical_medicine_part_2'
-	]
+	'bm4_y1': [],
+	'bm4_y2': [],
+	'pg': [],
 };
 

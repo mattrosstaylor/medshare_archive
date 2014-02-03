@@ -35,19 +35,7 @@
 	<epp:phrase id="medshare_programme_year_typename_bm5_y5">BM5 Y5</epp:phrase>
 	<epp:phrase id="medshare_programme_year_typename_bm4_y1">BM4 Y1</epp:phrase>
 	<epp:phrase id="medshare_programme_year_typename_bm4_y2">BM4 Y2</epp:phrase>
-
-	<!-- medshare_programme -->
-	<epp:phrase id="medshare_programme_typename_bm4">BM4</epp:phrase>
-	<epp:phrase id="medshare_programme_typename_bm5">BM5</epp:phrase>
-	<epp:phrase id="medshare_programme_typename_bm6">BM6</epp:phrase>
-	
-	<!-- medshare_year -->
-	<epp:phrase id="medshare_year_typename_y0">Y0</epp:phrase>
-	<epp:phrase id="medshare_year_typename_y1">Y1</epp:phrase>
-	<epp:phrase id="medshare_year_typename_y2">Y2</epp:phrase>
-	<epp:phrase id="medshare_year_typename_y3">Y3</epp:phrase>
-	<epp:phrase id="medshare_year_typename_y4">Y4</epp:phrase>
-	<epp:phrase id="medshare_year_typename_y5">Y5</epp:phrase>
+	<epp:phrase id="medshare_programme_year_typename_pg">Postgraduate</epp:phrase>
 
 	<!-- views -->
 	<epp:phrase id="viewname_eprint_programme_year">Programme &amp; Year</epp:phrase>
@@ -101,15 +89,9 @@
 	<epp:phrase id="medshare_module_typename_elective">Elective</epp:phrase>
 	<epp:phrase id="medshare_module_typename_year_5_assessment">Year 5 Assessment</epp:phrase>
 <!-- bm4_y1 -->
-	<epp:phrase id="medshare_module_typename_foundations_of_medicine_part_1">Foundations of Medicine Part 1</epp:phrase>
-	<epp:phrase id="medshare_module_typename_integration_of_knowledge_and_clinical_medicine_part_1">Integration of Knowledge and Clinical Medicine Part 1</epp:phrase>
-	<epp:phrase id="medshare_module_typename_clinical_practice_experience_part_1">Clinical Practice Experience Part 1</epp:phrase>
-	<epp:phrase id="medshare_module_typename_clinical_medicine_part_1">Clinical Medicine Part 1</epp:phrase>
 <!-- bm4_y2 -->
-	<epp:phrase id="medshare_module_typename_foundations_of_medicine_part_2">Foundations of Medicine Part 2</epp:phrase>
-	<epp:phrase id="medshare_module_typename_integration_of_knowledge_and_clinical_medicine_part_2">Integration of Knowledge and Clinical Medicine Part 2</epp:phrase>
-	<epp:phrase id="medshare_module_typename_clinical_practice_experience_part_2">Clinical Practice Experience Part 2</epp:phrase>
-	<epp:phrase id="medshare_module_typename_clinical_medicine_part_2">Clinical Medicine Part 2</epp:phrase>
+<!-- pg -->
+	<epp:phrase id="medshare_module_typename_unspecified">N/A</epp:phrase>
 
 <!-- themes -->
 	<epp:phrase id="medshare_theme_typename_communication">Communication</epp:phrase> 
