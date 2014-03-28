@@ -38,7 +38,20 @@
 	<field ref="raw_keywords" suggestions_url="{$config{rel_cgipath}}/users/lookup/medshare_keyword_suggestions" />
     </component>
 
-    <component type="Field::Permissions"><field ref="view_permissions" required="yes"/></component>
+    <component type="Permissions">
+        <field ref="view_permissions"/>
+        <available-types>
+            <type>private</type>
+            <type>public</type>
+            <type>restricted</type>
+        </available-types>
+        <field ref="edit_permissions"/>
+        <available-types>
+             <type>private</type>
+             <type>Creators</type>
+             <type>UserLookup</type>
+        </available-types>
+    </component>
 </stage>
 
 </workflow>

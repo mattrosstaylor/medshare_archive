@@ -1,0 +1,32 @@
+ul.medshare_course {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #ccc;
+}
+
+#clean_header {
+	background: #AB1210;
+}
+a:link, a:active, a:visited, a:hover {
+        color: #AB1210;
+}
+
+.ep_form_action_button, .ep_form_internal_button, .ep_tm_searchbarbutton, .ep_blister_node_selected {
+	border-color: #ca8080 #771210 #771210 #ca8080;
+	background-image: url(images/bar_12px.png);
+	background-color: #AB1210;
+	color: white;
+}
+.ep_form_action_button:active, .ep_form_internal_button:active, .ep_tm_searchbarbutton:active, .ep_blister_node_selected:active {
+	border-color:  #771210 #ca8080 #ca8080 #771210; 
+	background-image: url(images/bar_12px.png);
+        background-color: #cd2321;
+}
+.ep_tab_bar li a {
+	background-image: none;
+	background-color: #F3DEDE;
+}

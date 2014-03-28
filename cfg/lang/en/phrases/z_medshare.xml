@@ -137,4 +137,5 @@
 
 	<epp:phrase id="Plugin/TagLiteSuggestionList/StaticTags:raw_keywords_legend">Choose from keywords recommended by the Faculty of Medicine:</epp:phrase>
 
+<!--	<epp:phrase id="view_permissions_typename_restricted">Faculty of Medicine</epp:phrase> -->
 </epp:phrases>
