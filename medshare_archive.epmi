@@ -8,9 +8,9 @@
         <file>
           <filename>epm/medshare_archive/cfg/cfg.d/z_medshare.pl</filename>
           <mime_type>text/plain</mime_type>
-          <hash>04d1c01796a163678d1f24de3fdbb2de</hash>
+          <hash>53e84943a5115c6a34b6953a39d522ba</hash>
           <hash_type>MD5</hash_type>
-          <filesize>2070</filesize>
+          <filesize>2071</filesize>
         </file>
         <file>
           <filename>epm/medshare_archive/cfg/cfg.d/z_medshare_eprint_fields_automatic.pl</filename>

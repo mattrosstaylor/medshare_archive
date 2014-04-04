@@ -11,10 +11,10 @@ $c->{summary_page_metadata} = [qw/
 /];
 
 # mrt - well, this is totally hardcoded to keywords
-$c->{resourcemanager_filter_fields} = [
-	'keywords',
+$c->{resource_manager_filter_fields} = [
 	'course_programme_year',
 	'view_permissions_type',
+	'keywords',
 ];
 
 $c->{fields}->{eprint} = [@{$c->{fields}->{eprint}}, (
