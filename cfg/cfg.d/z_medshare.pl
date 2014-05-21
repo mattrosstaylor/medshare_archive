@@ -1,4 +1,4 @@
-$c->{summary_page_metadata} = [qw/
+$c->{default_summary_metadata} = [qw/
 	userid
 	lastmod
 	creators
@@ -6,6 +6,14 @@ $c->{summary_page_metadata} = [qw/
 	course_module
 	themes
 	subjects
+	keywords
+	license
+/];
+
+$c->{project_summary_metadata} = [qw/
+	project_author
+	project_supervisor
+	project_field
 	keywords
 	license
 /];
@@ -57,6 +65,25 @@ $c->{fields}->{eprint} = [@{$c->{fields}->{eprint}}, (
 	multiple => 1,
 	input_style => 'checkbox',
 	'browse_link' => 'subjects',
+},
+
+# project fields
+{
+	name => 'project_author',
+	type => 'name',
+	render_value => 'EPrints::Plugin::EdShareUtils::render_name_no_link',
+},
+{
+	name => 'project_supervisor',
+	type => 'name',
+	multiple => 1,
+	render_value => 'EPrints::Plugin::EdShareUtils::render_name_list',
+},
+
+{
+	name => 'project_field',
+	type => 'namedset',
+	set_name => 'medshare_project_field',
 },
 
 )];

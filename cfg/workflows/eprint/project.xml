@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<workflow xmlns="http://eprints.org/ep3/workflow" xmlns:epc="http://eprints.org/ep3/control">
+  <flow>
+    <stage ref="core"/>
+  </flow>
+
+  <stage name="core">
+    <component type="Upload">
+      <upload-methods>
+        <method>file</method>
+        <method>sharelink</method>
+      </upload-methods>
+    </component>
+    <component type="Documents">
+      <field ref="description"/>
+    </component>
+
+    <component type="Field::Multi">
+      <title>Past Paper Information</title>
+      <field ref="title" required="yes" />
+      <field ref="abstract"/>
+      <field ref="project_author" required="yes" />
+      <field ref="project_supervisor" required="yes" />
+      <field ref="project_field" required="yes" />
+    </component>
+
+    <component type="Field::TagLite">
+	<field ref="raw_keywords" suggestions_url="{$config{rel_cgipath}}/users/lookup/medshare_keyword_suggestions" />
+    </component>
+
+    <component type="Permissions">
+        <field ref="view_permissions"/>
+        <available-types>
+            <type>private</type>
+            <type>public</type>
+            <type>restricted</type>
+        </available-types>
+        <field ref="edit_permissions"/>
+        <available-types>
+             <type>private</type>
+             <type>Creators</type>
+             <type>UserLookup</type>
+        </available-types>
+    </component>
+</stage>
+
+</workflow>

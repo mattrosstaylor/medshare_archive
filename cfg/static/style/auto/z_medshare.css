@@ -11,7 +11,7 @@ body {
 #clean_header {
 	background: #AB1210;
 }
-a:link, a:active, a:visited, a:hover {
+a, a:link, a:active, a:visited, a:hover {
         color: #AB1210;
 }
 
