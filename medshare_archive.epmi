@@ -36,23 +36,23 @@
         <file>
           <filename>epm/medshare_archive/cfg/cfg.d/z_medshare_views.pl</filename>
           <mime_type>text/plain</mime_type>
-          <hash>3df4c836ade4a24c7c7cada3053edb65</hash>
+          <hash>704270af852daf250ac7c21dcb0c8558</hash>
           <hash_type>MD5</hash_type>
-          <filesize>1133</filesize>
+          <filesize>826</filesize>
         </file>
         <file>
           <filename>epm/medshare_archive/cfg/citations/eprint/result.xml</filename>
           <mime_type>application/xml</mime_type>
-          <hash>3cd505737ad6ce0688930c61af8d9af2</hash>
+          <hash>4e304f24179902a561342da460bc7b1c</hash>
           <hash_type>MD5</hash_type>
-          <filesize>2256</filesize>
+          <filesize>1903</filesize>
         </file>
         <file>
           <filename>epm/medshare_archive/cfg/lang/en/phrases/z_medshare.xml</filename>
           <mime_type>application/xml</mime_type>
-          <hash>1fa52dd225d566397b3ad032e1afb56e</hash>
+          <hash>fdf004cac3c97f6b2bca2990bac20ebc</hash>
           <hash_type>MD5</hash_type>
-          <filesize>11328</filesize>
+          <filesize>11404</filesize>
         </file>
         <file>
           <filename>epm/medshare_archive/cfg/namedsets/eprint</filename>

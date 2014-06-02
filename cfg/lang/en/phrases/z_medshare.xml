@@ -42,6 +42,7 @@
 	<epp:phrase id="viewname_eprint_module">Module</epp:phrase>
 	<epp:phrase id="viewname_eprint_subjects">Subjects</epp:phrase>
 	<epp:phrase id="viewname_eprint_themes">Themes</epp:phrase>
+	<epp:phrase id="viewname_eprint_project_field">Project Fields</epp:phrase>
 	
 	<!-- medshare_module -->
 <!-- bm6_y0 -->

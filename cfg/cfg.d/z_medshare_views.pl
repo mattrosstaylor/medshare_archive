@@ -5,35 +5,22 @@ $c->{browse_views} = [@{$c->{browse_views}}, (
 	{
 		fields => [ "course_programme_year" ],
 		reverse_order => 1,
-		allow_null => 1,
 		new_column_at => [10,10],
 	}
 	],
 	order => "title",
 	citation => "result",
-#	variations => [
-#		"creators_name;first_letter",
-#		"type",
-#		"DEFAULT"
-#	],
 },
 {
 	id => "module",
 	menus => [
 	{
 		fields => [ "course_module" ],
-		reverse_order => 1,
-		allow_null => 1,
 		new_column_at => [10,10],
 	}
 	],
 	order => "title",
 	citation => "result",
-#	variations => [
-#		"creators_name;first_letter",
-#		"type",
-#		"DEFAULT"
-#	],
 },
 
 {
@@ -41,18 +28,11 @@ $c->{browse_views} = [@{$c->{browse_views}}, (
 	menus => [
 	{
 		fields => [ "subjects" ],
-		reverse_order => 1,
-		allow_null => 1,
 		new_column_at => [10,10],
 	}
 	],
 	order => "title",
 	citation => "result",
-#	variations => [
-#		"creators_name;first_letter",
-#		"type",
-#		"DEFAULT"
-#	],
 },
 
 
@@ -61,18 +41,22 @@ $c->{browse_views} = [@{$c->{browse_views}}, (
 	menus => [
 	{
 		fields => [ "themes" ],
-		reverse_order => 1,
-		allow_null => 1,
 		new_column_at => [10,10],
 	}
 	],
 	order => "title",
 	citation => "result",
-#	variations => [
-#		"creators_name;first_letter",
-#		"type",
-#		"DEFAULT"
-#	],
 },
 
+{
+	id => "project_field",
+	menus => [
+	{
+		fields => [ "project_field" ],
+		new_column_at => [10, 10],
+	}
+	],
+	order => "title",
+	citation => "result",
+},
 )];
