@@ -77,7 +77,7 @@ $c->{fields}->{eprint} = [@{$c->{fields}->{eprint}}, (
 	name => 'project_supervisor',
 	type => 'name',
 	multiple => 1,
-	render_value => 'EPrints::Plugin::EdShareUtils::render_name_list',
+	render_single_value => 'EPrints::Plugin::EdShareUtils::render_name',
 },
 
 {

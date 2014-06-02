@@ -8,9 +8,9 @@
         <file>
           <filename>epm/medshare_archive/cfg/cfg.d/z_medshare.pl</filename>
           <mime_type>text/plain</mime_type>
-          <hash>eda936bcf378fa2c1fe385eb4cfbea0a</hash>
+          <hash>0bedbe5cefc4deff32cd5109ace204bb</hash>
           <hash_type>MD5</hash_type>
-          <filesize>2554</filesize>
+          <filesize>2556</filesize>
         </file>
         <file>
           <filename>epm/medshare_archive/cfg/cfg.d/z_medshare_eprint_fields_automatic.pl</filename>
@@ -43,9 +43,9 @@
         <file>
           <filename>epm/medshare_archive/cfg/citations/eprint/result.xml</filename>
           <mime_type>application/xml</mime_type>
-          <hash>a15c1279334ca2b6b740ee9755878d01</hash>
+          <hash>3cd505737ad6ce0688930c61af8d9af2</hash>
           <hash_type>MD5</hash_type>
-          <filesize>1799</filesize>
+          <filesize>2256</filesize>
         </file>
         <file>
           <filename>epm/medshare_archive/cfg/lang/en/phrases/z_medshare.xml</filename>

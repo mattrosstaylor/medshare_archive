@@ -7,22 +7,32 @@
 <div class="gridview compressed">
 	<div class="griditem">
 		<div class="metadata">
-			<strong>Added By:</strong> <epc:print expr="userid" /><br />
-			<strong>Date:</strong> <epc:print expr="lastmod" /><br />
-			<epc:if test="length(creators) gt 0">
-				<strong>Creators:</strong> <epc:print expr="creators" /><br />
-			</epc:if>
+			<epc:choose>
+				<epc:when test="type = 'resource'">
+					<strong>Added By:</strong> <epc:print expr="userid" /><br />
+					<strong>Date:</strong> <epc:print expr="lastmod" /><br />
+					<epc:if test="length(creators) gt 0">
+						<strong>Creators:</strong> <epc:print expr="creators" /> <br />
+					</epc:if>
 
-			<strong>Programme &amp; Year:</strong> <epc:print expr="course_programme_year" /><br />
-			<strong>Module:</strong> <epc:print expr="course_module" /><br />
+					<strong>Programme &amp; Year:</strong> <epc:print expr="course_programme_year" /><br />
+					<strong>Module:</strong> <epc:print expr="course_module" /><br />
 
-			<epc:if test="length(themes) gt 0">
-				<strong>Themes:</strong> <epc:print expr="themes" /><br />
-			</epc:if>
+					<epc:if test="length(themes) gt 0">
+						<strong>Themes:</strong> <epc:print expr="themes" /><br />
+					</epc:if>
 
-			<epc:if test="length(subjects) gt 0">
-				<strong>Subjects:</strong> <epc:print expr="subjects" /><br />
-			</epc:if>
+					<epc:if test="length(subjects) gt 0">
+						<strong>Subjects:</strong> <epc:print expr="subjects" /><br />
+					</epc:if>
+				</epc:when>
+				<epc:when test="type = 'project'">
+					<strong>Author:</strong> <epc:print expr="project_author" /> <br />
+					<strong>Supervisor:</strong> <epc:print expr="project_supervisor" /> <br />
+					<strong>Field:</strong> <epc:print expr="project_field" /> <br />
+					<strong>Date:</strong> <epc:print expr="date" /> <br />
+				</epc:when>
+			</epc:choose>
 
 			<epc:if test="length(keywords) gt 0">
 				<strong>Keywords:</strong> <epc:print expr="keywords" /><br />
