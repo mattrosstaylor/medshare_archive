@@ -15,7 +15,6 @@ $c->{project_summary_metadata} = [qw/
 	project_supervisor
 	project_field
 	keywords
-	license
 /];
 
 # mrt - well, this is totally hardcoded to keywords
@@ -75,17 +74,26 @@ $c->{fields}->{eprint} = [@{$c->{fields}->{eprint}}, (
 },
 {
 	name => 'project_supervisor',
-	type => 'name',
+	type => 'text',
 	multiple => 1,
-	render_single_value => 'EPrints::Plugin::EdShareUtils::render_name',
 },
 
 {
 	name => 'project_field',
-	type => 'namedset',
-	set_name => 'medshare_project_field',
+	type => 'text',
+	'browse_link' => 'project_field',
 },
 
+# undisplayed fields
+{
+	name => 'project_assignment_id',
+	type => 'text',
+},
+
+{
+	name => 'project_submission_id',
+	type => 'text',
+},
 )];
 
 # add ldap specific fields
@@ -123,6 +131,7 @@ $c->{allow_web_signup} = 0;
 
 $c->{plugins}->{"InputForm::Component::Field::MedShareModuleSelect"}->{params}->{disable} = 0;
 $c->{plugins}->{"MedShareUtils"}->{params}->{disable} = 0;
+$c->{plugins}->{"Import::PastProjects"}->{params}->{disable} = 0;
 
 # temporarily disable profile 
 $c->{user_roles}->{user} = [qw{

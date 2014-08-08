@@ -145,7 +145,4 @@
 	<epp:phrase id="eprint_fieldname_project_author">Author</epp:phrase>
 	<epp:phrase id="eprint_fieldname_project_supervisor">Supervisor</epp:phrase>
 	<epp:phrase id="eprint_fieldname_project_field">Field</epp:phrase>
-	<epp:phrase id="medshare_project_field_typename_field1">Example Field One</epp:phrase>
-	<epp:phrase id="medshare_project_field_typename_field2">Example Field Two</epp:phrase>
-	<epp:phrase id="medshare_project_field_typename_field3">Example Field Three</epp:phrase>
 </epp:phrases>
