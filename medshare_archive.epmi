@@ -1,16 +1,16 @@
 <?xml version='1.0' encoding='utf-8'?>
 <epm xmlns='http://eprints.org/ep2/data/2.0' id='http://lslvm-mrt5.ecs.soton.ac.uk/id/epm/medshare_archive'>
   <epmid>medshare_archive</epmid>
-  <uri>http://lslvm-mrt5b.ecs.soton.ac.uk/id/epm/medshare_archive</uri>
+  <uri>http://lslvm-mrt5.ecs.soton.ac.uk/id/epm/medshare_archive</uri>
   <documents>
     <document>
       <files>
         <file>
           <filename>epm/medshare_archive/cfg/cfg.d/z_medshare.pl</filename>
           <mime_type>text/plain</mime_type>
-          <hash>f7c8b6c71c2f14e980ab6c5358e4c472</hash>
+          <hash>3043a23e2d70d4ae2307fcd93d31d645</hash>
           <hash_type>MD5</hash_type>
-          <filesize>2669</filesize>
+          <filesize>2701</filesize>
         </file>
         <file>
           <filename>epm/medshare_archive/cfg/cfg.d/z_medshare_eprint_fields_automatic.pl</filename>
@@ -50,9 +50,9 @@
         <file>
           <filename>epm/medshare_archive/cfg/lang/en/phrases/z_medshare.xml</filename>
           <mime_type>application/xml</mime_type>
-          <hash>7c4b2641e01df3915d9c40ff6a5f918e</hash>
+          <hash>b6f5c7d643955e793701b886aa760cb5</hash>
           <hash_type>MD5</hash_type>
-          <filesize>11406</filesize>
+          <filesize>11391</filesize>
         </file>
         <file>
           <filename>epm/medshare_archive/cfg/namedsets/eprint</filename>
@@ -71,9 +71,9 @@
         <file>
           <filename>epm/medshare_archive/cfg/namedsets/medshare_module</filename>
           <mime_type>text/plain</mime_type>
-          <hash>2f430e5707cdefb4d60d46463a1f524b</hash>
+          <hash>9baa3260d8be9b43e67db32a8ba20ec4</hash>
           <hash_type>MD5</hash_type>
-          <filesize>861</filesize>
+          <filesize>907</filesize>
         </file>
         <file>
           <filename>epm/medshare_archive/cfg/namedsets/medshare_programme_year</filename>
@@ -106,9 +106,9 @@
         <file>
           <filename>epm/medshare_archive/cfg/static/javascript/auto/medshare_modules.js</filename>
           <mime_type>text/plain</mime_type>
-          <hash>e0ab76c2f3dd86889158ef9b12f1fd02</hash>
+          <hash>feae0b61d488b6a635de194daef6fc56</hash>
           <hash_type>MD5</hash_type>
-          <filesize>1155</filesize>
+          <filesize>1211</filesize>
         </file>
         <file>
           <filename>epm/medshare_archive/cfg/static/javascript/auto/medshare_select_module.js</filename>
@@ -162,9 +162,9 @@
         <file>
           <filename>plugins/EPrints/Plugin/Import/PastProjects.pm</filename>
           <mime_type>inode/symlink</mime_type>
-          <hash>a09414365a761cdaf028239e4f226ab2</hash>
+          <hash>ed8e142c0106bb90bc2451b872e7feef</hash>
           <hash_type>MD5</hash_type>
-          <filesize>4282</filesize>
+          <filesize>4556</filesize>
         </file>
         <file>
           <filename>plugins/EPrints/Plugin/InputForm/Component/Field/MedShareModuleSelect.pm</filename>

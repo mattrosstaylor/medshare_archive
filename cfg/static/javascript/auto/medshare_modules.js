@@ -27,7 +27,8 @@ var medshare_programme_year_to_modules = {
 		'surgery_orthopaedics',
 		'scientific_basis_of_medicine',
 		'ssu3',
-		'year_3_assessment'
+		'year_3_assessment',
+		'german_medical_practice'
 	],
 	'bm5_y4': [
 		'psychiatry',
@@ -47,7 +48,8 @@ var medshare_programme_year_to_modules = {
 		'ssu4',
 		'assistantship',
 		'elective',
-		'year_5_assessment'
+		'year_5_assessment',
+		'uk_clinical_placement'
 	],
 	'bm4_y1': [],
 	'bm4_y2': [],
