@@ -128,6 +128,7 @@ push @{$c->{fields}->{user}},
 ;
 
 $c->{allow_web_signup} = 0;
+$c->{allow_reset_password} = 0;
 
 $c->{plugins}->{"InputForm::Component::Field::MedShareModuleSelect"}->{params}->{disable} = 0;
 $c->{plugins}->{"MedShareUtils"}->{params}->{disable} = 0;
