@@ -104,6 +104,13 @@
           <filesize>10236</filesize>
         </file>
         <file>
+          <filename>epm/medshare_archive/cfg/static/javascript/auto/medshare_hide_na_module.js</filename>
+          <mime_type>text/plain</mime_type>
+          <hash>ccfbd842a8cf8ac35bbf02142720682e</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>252</filesize>
+        </file>
+        <file>
           <filename>epm/medshare_archive/cfg/static/javascript/auto/medshare_modules.js</filename>
           <mime_type>text/plain</mime_type>
           <hash>feae0b61d488b6a635de194daef6fc56</hash>
