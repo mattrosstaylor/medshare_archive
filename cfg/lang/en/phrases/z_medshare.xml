@@ -1,19 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE phrases SYSTEM "entities.dtd">
 <epp:phrases xmlns="http://www.w3.org/1999/xhtml" xmlns:epp="http://eprints.org/ep3/phrase" xmlns:epc="http://eprints.org/ep3/control">
-	<epp:phrase id="edshare_frontpage_left">
-		<h2 style="font-size: 250%;">Welcome to MedShare</h2><p>MedShare is the new home of teaching and learning materials for the Faculty of Medicine.  It allows up-to-date resources to be delivered to students either through the existing University Blackboard system, or directly via searching or categorised browsing.</p>
-		<h2>Browse MedShare</h2>
-		<p>While it is often easier to search for resources using the search box on the top-right of the site or <a href="/cgi/search/advanced">advanced search</a>, it is also possible to browse resources in MedShare by a number of useful categories:</p>
-		<ul>   
-                        <li><a href="/view/programme_year">Programme &amp; Year of study</a></li>
-                        <li><a href="/view/module">Module</a></li>
-                        <li><a href="/view/themes">Theme</a></li>
-                        <li><a href="/view/subjects">Subject</a></li>
-                        <li><a href="/view/keywords">Associated Keywords</a></li>
-                </ul>
-	</epp:phrase>
-
 	<epp:phrase id="eprint_fieldname_course">Programme, Year &amp; Module </epp:phrase>
 	<epp:phrase id="eprint_fieldhelp_course">What programme and module is this resource part of?</epp:phrase>
 	<epp:phrase id="eprint_fieldname_course_programme_year">Programme &amp; Year</epp:phrase>

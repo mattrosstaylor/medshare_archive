@@ -30,3 +30,8 @@ a, a:link, a:active, a:visited, a:hover {
 	background-image: none;
 	background-color: #F3DEDE;
 }
+
+#edshare_slideshow {
+	margin-top: 12px;
+	height: 290px;
+}

@@ -12,6 +12,7 @@ our @replaced_files = (
 	"/citations/eprint/result.xml",
 	"/namedsets/eprint",
 	"/namedsets/licenses",
+	"/lang/en/static/index.xpage",
 );
 
 sub new
