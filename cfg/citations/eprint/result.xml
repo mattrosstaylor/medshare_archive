@@ -29,7 +29,7 @@
 				<epc:when test="type = 'project'">
 					<strong>Author:</strong> <epc:print expr="project_author" /> <br />
 					<strong>Supervisor:</strong> <epc:print expr="project_supervisor" /> <br />
-					<strong>Field:</strong> <epc:print expr="project_field" /> <br />
+					<strong>Group:</strong> <epc:print expr="project_group" /> <br />
 				</epc:when>
 			</epc:choose>
 

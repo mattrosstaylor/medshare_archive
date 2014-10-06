@@ -13,7 +13,7 @@ $c->{default_summary_metadata} = [qw/
 $c->{project_summary_metadata} = [qw/
 	project_author
 	project_supervisor
-	project_field
+	project_group
 	keywords
 /];
 
@@ -79,9 +79,9 @@ $c->{fields}->{eprint} = [@{$c->{fields}->{eprint}}, (
 },
 
 {
-	name => 'project_field',
+	name => 'project_group',
 	type => 'text',
-	'browse_link' => 'project_field',
+	'browse_link' => 'project_group',
 },
 
 # undisplayed fields

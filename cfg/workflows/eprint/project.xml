@@ -22,7 +22,7 @@
       <field ref="abstract"/>
       <field ref="project_author" required="yes" />
       <field ref="project_supervisor" required="yes" />
-      <field ref="project_field" required="yes" />
+      <field ref="project_group" required="yes" />
     </component>
 
     <component type="Field::TagLite">

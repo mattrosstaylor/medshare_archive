@@ -8,7 +8,7 @@
         <file>
           <filename>epm/medshare_archive/cfg/cfg.d/z_medshare.pl</filename>
           <mime_type>text/plain</mime_type>
-          <hash>3043a23e2d70d4ae2307fcd93d31d645</hash>
+          <hash>e0fe6552e9d108bae12fe24496282709</hash>
           <hash_type>MD5</hash_type>
           <filesize>2701</filesize>
         </file>
@@ -29,37 +29,37 @@
         <file>
           <filename>epm/medshare_archive/cfg/cfg.d/z_medshare_user_login.pl</filename>
           <mime_type>text/plain</mime_type>
-          <hash>1bda8e7aef803b7dd2a0b89bca3c1f34</hash>
+          <hash>c9fc20c2f2628984d6dc8caf1fd72e98</hash>
           <hash_type>MD5</hash_type>
-          <filesize>2663</filesize>
+          <filesize>2662</filesize>
         </file>
         <file>
           <filename>epm/medshare_archive/cfg/cfg.d/z_medshare_views.pl</filename>
           <mime_type>text/plain</mime_type>
-          <hash>704270af852daf250ac7c21dcb0c8558</hash>
+          <hash>c494b933cdae4f343182608f055b9683</hash>
           <hash_type>MD5</hash_type>
           <filesize>826</filesize>
         </file>
         <file>
           <filename>epm/medshare_archive/cfg/citations/eprint/result.xml</filename>
           <mime_type>application/xml</mime_type>
-          <hash>4e304f24179902a561342da460bc7b1c</hash>
+          <hash>c98033a54c39d8a06221aefc855cd74a</hash>
           <hash_type>MD5</hash_type>
           <filesize>1903</filesize>
         </file>
         <file>
           <filename>epm/medshare_archive/cfg/lang/en/phrases/z_medshare.xml</filename>
           <mime_type>application/xml</mime_type>
-          <hash>32e5c1ea9686a4cbe99c861bdb607035</hash>
+          <hash>c4685323c1c54431252d9f0aee72b4b5</hash>
           <hash_type>MD5</hash_type>
           <filesize>10322</filesize>
         </file>
         <file>
           <filename>epm/medshare_archive/cfg/lang/en/static/index.xpage</filename>
           <mime_type>application/xml</mime_type>
-          <hash>c84fc4e2681904f3ab2ec10c3e372711</hash>
+          <hash>45678e2bef254ecc9bfd380efecaa856</hash>
           <hash_type>MD5</hash_type>
-          <filesize>2145</filesize>
+          <filesize>2238</filesize>
         </file>
         <file>
           <filename>epm/medshare_archive/cfg/namedsets/eprint</filename>
@@ -190,7 +190,7 @@
         <file>
           <filename>epm/medshare_archive/cfg/workflows/eprint/project.xml</filename>
           <mime_type>application/xml</mime_type>
-          <hash>262ac03b958fc964ccb35753463b1e7a</hash>
+          <hash>5395479d38d3ce3ef37139e642335cbc</hash>
           <hash_type>MD5</hash_type>
           <filesize>1409</filesize>
         </file>

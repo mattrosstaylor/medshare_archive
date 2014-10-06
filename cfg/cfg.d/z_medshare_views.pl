@@ -49,10 +49,10 @@ $c->{browse_views} = [@{$c->{browse_views}}, (
 },
 
 {
-	id => "project_field",
+	id => "project_group",
 	menus => [
 	{
-		fields => [ "project_field" ],
+		fields => [ "project_group" ],
 		new_column_at => [10, 10],
 	}
 	],

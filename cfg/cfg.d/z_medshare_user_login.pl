@@ -20,7 +20,7 @@ $c->{check_user_password} = sub {
 
 	if ( $whitelist_status eq 'blocked' )
 	{
-#		return;
+		return;
 	}
 
 	my $login_method = $user->value( 'login_method' );
